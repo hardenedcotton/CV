@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefers-color-scheme="light">
 
 <head>
-  <meta charset="UTF-8" />
-  <!-- <meta http-equiv="refresh" content="1" /> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Onur Ümit Şener</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
   <link rel="icon" href="assets/HC-emblem.png">
 </head>
-<!-- <script>
-  window.addEventListener("focus", () => {
-    document.location = document.location;
-  });
-</script> -->
 
 <body>
-  <div class="container">
-    <div class="left-column">
+  <div class="content">
+    <div class="left-column col-xs-4 col-3">
+
       <h1>Onur Ümit Şener</h1>
       <div class="profile-picture">
         <img src="assets/ous.jpg" alt="my picture">
@@ -46,18 +47,28 @@
       <div class="links">
         <h2>EXTERNAL<br>LINKS</h2>
         <br>
-        <div>
-          <a href="https://github.com/hardenedcotton/" target=”_blank”>
-            <div class="social-icon">
-              <img src="assets/github-mark-white.png" alt="github">
-              <p>/hardenedcotton</p>
-            </div>
+        <div class="align-items-center">
+          <a href="https://github.com/hardenedcotton/" target=”_blank” role="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-github"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+            </svg>
+            <span id="github">
+              /hardenedcotton
+            </span>
           </a>
+        </div>
+        <div class="align-items-center">
           <a href="https://www.linkedin.com/in/onurumitsener/" target=”_blank”>
-            <div class="social-icon">
-              <img src="assets/In-White-128@2x.png" alt="linkedin">
-              <p>/in/onurumitsener</p>
-            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-linkedin"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+            </svg>
+            <span id="linkedin">
+              /in/onurumitsener
+            </span>
           </a>
         </div>
       </div>
@@ -72,15 +83,34 @@
         </div>
       </div>
     </div>
-
-    <div class="right-column">
-      <div class="About Me">
+    <div class="right-column col">
+      <div class="buttons">
+        <button type="button" class="btn btn-outline-dark" id="print-button" onClick="window.print()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1" />
+            <path
+              d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
+          </svg>
+          Print my CV
+        </button>
+        <button theme-toggle type="button" class="btn btn-outline-dark justify-content-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-moon-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+          </svg>
+          Dark Mode
+        </button>
+      </div>
+      <div class="about-me">
         <h1>ABOUT ME</h1>
         <div class="text">
           <p>
             I was born and raised in İzmir. I was interested in electronics and
             computers for as long as I have known myself. I find programming
-            quite enjoying. I was always curious about how things work so I
+            quite enjoyable. I was always curious about how things work so I
             broke lots of things apart and inspected them as I grew up. I write
             hobby projects in my spare time and try to learn new things whenever
             I can. I also am a avid design enthusiast. I spend most of my free time
@@ -88,8 +118,8 @@
           </p>
         </div>
       </div>
-      <div class="all-languages">
-        <div class="speaking-languages">
+      <div class="row all-languages">
+        <div class="speaking-languages col-xl-3 col-lg-4 col-12">
           <h2><br>LANGUAGES</h2>
           <div class="language-individual">
             <div class="text">
@@ -102,50 +132,80 @@
             </div>
           </div>
         </div>
-        <div class="programming-languages">
+        <div id="programming-languages" class="col">
           <h2>
             PROGRAMMING<br>
             LANGUAGES
           </h2>
-          <div class="programming-skills">
-            <div class="skill">
-              <div class="skill-name">Python</div>
-              <div class="progress-bar">
-                <div class="progress" style="width: 90%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill-name">Java</div>
-              <div class="progress-bar">
-                <div class="progress" style="width: 25%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill-name">C++</div>
-              <div class="progress-bar">
-                <div class="progress" style="width: 50%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill-name">C#</div>
-              <div class="progress-bar">
-                <div class="progress" style="width: 20%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill-name">Matlab</div>
-              <div class="progress-bar">
-                <div class="progress" style="width: 35%;"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <div class="skill-name">HTML/JS/CSS</div>
-              <div class="progress-bar">
-                <div class="progress" style="width: 60%;"></div>
-              </div>
-            </div>
-          </div>
+          <table class="table table-borderless">
+            <tbody>
+              <tr>
+                <td class="skill-name">Python</td>
+                <td>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skill-name">Java</td>
+                <td>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 25%;"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skill-name">C++</td>
+                <td>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 50%;"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skill-name">C#</td>
+                <td>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 20%;"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skill-name">Matlab</td>
+                <td>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 35%;"></div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="skill-name">HTML/JS/CSS</td>
+                <td>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
+
+        </div>
+      </div>
+      <div class="skills">
+        <h2>SKILLS</h2>
+        <div class="text">
+          <p>Full Stack Web Development (Django)</p>
+          <p>Object Oriented Programming</p>
+          <p>Data Science & Processing</p>
+          <p>Git and Version Control</p>
+          <p>Signal Processing</p>
+          <p>Machine Learning</p>
+          <p>High Voltage Circuits and Components</p>
+          <p>Spreadsheet Proficiency</p>
+          <p>Photoshop & Blender</p>
+          <p>First Aid</p>
         </div>
       </div>
       <div class="experience">
@@ -167,7 +227,6 @@
           <p>Sembolik Filtreleme Tabanlı Öznitelik Çıkarımı ile
             Görüntü Sınıflandırma Performansının Artırılması ve
             Tarımda İlaçlama Normunun Belirlenmesi</p>
-
         </div>
       </div>
       <div class="education">
@@ -185,21 +244,7 @@
           <p>Took part in TÜBiTAK 4006</p>
         </div>
       </div>
-      <div class="skills">
-        <h2>SKILLS</h2>
-        <div class="text">
-          <p>Full Stack Web Development (Django)</p>
-          <p>Object Oriented Programming</p>
-          <p>Data Science & Processing</p>
-          <p>Git and Version Control</p>
-          <p>Signal Processing</p>
-          <p>Machine Learning</p>
-          <p>High Voltage Circuits and Components</p>
-          <p>Spreadsheet Proficiency</p>
-          <p>Photoshop & Blender</p>
-          <p>First Aid</p>
-        </div>
-      </div>
+
       <div class="projects">
         <h2>PROJECT REPOSITORIES</h2>
         <div class="text">
@@ -207,13 +252,15 @@
           <a href="https://github.com/hardenedcotton/RL_driver" target=”_blank”>
             <h3>RL_driver<sup>[WIP]</sup></h3>
           </a>
-          <p><b>[Python]</b> My hobby project that aims to use a Reinforcement Learning model to create a self driving
+          <p><b>[Python]</b> My hobby project that aims to use a Reinforcement Learning model to create a self
+            driving
             racing car. Which then is used to compute the ideal racing line.</p>
 
           <a href="https://github.com/hardenedcotton/MFBC" target=”_blank”>
             <h3>MFBC<sup>[WIP]</sup></h3>
           </a>
-          <p><b>[Python]</b> Math Function Based Convolution. This code uses math functions (sin, cos, exp etc.) to
+          <p><b>[Python]</b> Math Function Based Convolution. This code uses math functions (sin, cos, exp etc.)
+            to
             modulate pixel values on each RGB channel.</p>
 
           <a href="https://github.com/hardenedcotton/BoarRepellent" target=”_blank”>
@@ -230,7 +277,7 @@
           <a href="https://github.com/hardenedcotton/BasicImageFiltering" target=”_blank”>
             <h3>BasicImageFiltering</h3>
           </a>
-          <p><b>[Python]</b>Includes low level image processing to create a social media-like filter.</p>
+          <p><b>[Python]</b> Includes low level image processing to create a social media-like filter.</p>
 
           <a href="https://github.com/hardenedcottonbruteForceAttack" target=”_blank”>
             <h3>BruteForceAttack</h3>
@@ -273,8 +320,8 @@
         <div class="text">
           <h4>NDA/Company Owned Projects</h4>
           <h3>Tester-Developer Portal</h3>
-          <p><b>[Django/HTMl/CSS/JQuery]</b> In <i>SCW.AI</i>, after changing their case report system, they needed a
-            portal website for both developers and testers to access.
+          <p><b>[Django/HTML/CSS/JQuery]</b> In my internship at <i>SCW.AI</i>, after changing their case report system,
+            they needed a portal website for both developers and testers to access.
             Website had:<br>
             ‣ Django templates<br>
             ‣ AJAX implementation<br>
@@ -289,5 +336,6 @@
     </div>
   </div>
 </body>
+<script src="script.js"></script>
 
 </html>

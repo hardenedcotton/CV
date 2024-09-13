@@ -189,8 +189,8 @@ a:hover {
     font-weight: 300;
 }
 
-#programming-languages h2 {
-    padding-left: 6.75vw;
+#programming-languages h2{
+    margin-left: 8rem;
 }
 
 .programming-skills {

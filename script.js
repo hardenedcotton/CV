@@ -57,3 +57,16 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
   
     currentThemeSetting = newTheme;
   }); 
+
+function expandLinks() {
+  var newsLinks = document.getElementById("news-links");
+  var moreText = document.getElementById("more");
+
+  if (moreText.style.display === "none") {
+    moreText.style.display = "inline";
+    newsLinks.innerHTML = "<u>Click to hide news articles</u>";
+  } else {
+    moreText.style.display = "none";
+    newsLinks.innerHTML= "<u>Click to reveal news articles</u>";
+  }
+}

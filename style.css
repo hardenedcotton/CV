@@ -36,7 +36,10 @@
         display: none;
         visibility: hidden;
     }
-    
+    #news-links {
+        display: none;
+        visibility: hidden;
+    }
 }
 
 [prefers-color-scheme="light"] {

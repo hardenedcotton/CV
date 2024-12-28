@@ -174,6 +174,10 @@ a:hover {
 .left-column h2 {
     padding-top: 50px;
 }
+.reference-contact {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 .about-me {
     margin-bottom: -60px;
@@ -274,6 +278,11 @@ a:hover {
     margin-bottom: -10px;
     font-weight: 700;
     font-size: 1rem;
+}
+
+#news-links u:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 .profile-picture {

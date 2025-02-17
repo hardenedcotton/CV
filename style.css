@@ -122,7 +122,7 @@ h2,
 h3,
 h4,
 p {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 h1 {
@@ -130,7 +130,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 80px;
+    padding-top: 80px;
     font-size: 28pt;
 }
 
@@ -142,11 +142,11 @@ h3 {
 h4 {
     font-size: 14pt;
     font-weight: 500;
+    padding-top: 10px;
 
 }
 
 p {
-    margin-top: 10px;
     font-size: 14pt;
 }
 
@@ -161,6 +161,15 @@ a {
 
 a:hover {
     opacity: 0.8;
+}
+
+.interests .text{
+    column-count: 2;
+}
+
+#interest-left-col{
+    text-align: left;
+    padding-left: 40px;
 }
 
 .links div {
@@ -184,10 +193,11 @@ a:hover {
 }
 
 .about-me {
-    margin-bottom: -60px;
+    padding-bottom: -60px;
 }
 .all-languages {
-    margin-bottom: -60px;
+    padding-top: 10px;
+    padding-bottom: -60px;
 }
 
 #programming-languages .languages {

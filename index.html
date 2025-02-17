@@ -12,13 +12,11 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="print.css" media="max-width : 770px">
-
   <link rel="icon" href="assets/HC-emblem.png">
 
   <meta property="og:title" content="Onur Ümit Şener - CV">
   <!-- <meta property="og:description" content="My CV as a website"> -->
-  <meta property="og:image" content="assets/ous_banner.jpg">
+  <meta property="og:image" content="https://hardenedcotton.github.io/CV/assets/ous_banner.jpg">
 
 </head>
 
@@ -38,15 +36,20 @@
       <div class="interests">
         <h2>INTERESTS</h2>
         <div class="text">
-          <p>Motorsports</p>
-          <p>Aviation</p>
-          <p>Photography</p>
-          <p>Programming</p>
-          <p>Extreme Sports</p>
-          <p>Drawing</p>
-          <p>3D Modelling</p>
-          <p>Video Games</p>
-          <p>Music</p>
+          <div id="interest-left-col">
+            <p>Motorsports</p>
+            <p>Aviation</p>
+            <p>Photography</p>
+            <p>Programming</p>
+            <p>Extreme Sports</p>
+          </div>
+          <div id="interest-right-col">
+            <p>Drawing</p>
+            <p>Movies and Shows</p>
+            <p>Video Games</p>
+            <p>3D Modelling</p>
+            <p>Music</p>
+          </div>
         </div>
       </div>
       <div class="links">
@@ -87,7 +90,6 @@
           <p>TURKEY</p>
         </div>
       </div>
-      <!-- Hide the references
       <div class="references">
         <h2>REFERENCES</h2>
         <div class="text">
@@ -101,7 +103,7 @@
           <div class="reference-contact">
             <h3>Selami BEYHAN</h3>
             <h4>Assoc. Prof. Dr.</br>Electrical-Electronics Engineering</h4>
-            <h6>@ Izmir Democracy University</h6>
+            <h6>@ Yıldız Technical University</h6>
             <a href="tel:+905302475355">+90 530 247 53 55</a><br>
             <a href="mailto:selamibeyhan@gmail.com">selamibeyhan@gmail.com</a>
           </div>
@@ -113,7 +115,6 @@
           </div>
         </div>
       </div>
-      -->
     </div>
     <div class="right-column col">
       <div class="buttons">
@@ -135,7 +136,7 @@
           </svg>
           Dark Mode
         </button>
-        <p class="last-update">Last Updated: 05.02.2025</p>
+        <p class="last-update">Last Updated: 17.02.2025</p>
 
       </div>
       <div class="about-me">
@@ -299,14 +300,20 @@
             <a href="https://www.youtube.com/watch?v=9ZVOnWJcw3c">
               <u>Live Interview</u></a>
           </p>
-          </p>
           <q>Organised by Elektrik Mühendisleri Odası (EMO) İzmir Şubesi, İzmir İnovasyon ve Teknoloji A.Ş ve İzQ
             İnovasyon Merkezi</q>
         </div>
         <div class="text">
           <h3>University Lecturing</h3>
-          <h4>Given two lectures about PLC and CODESYS for the <i style=" font-weight: 300;">EEE413 - Programmable Logic
-              Controllers</i> class</h4>
+
+          <h4>Given two lectures about PLC and CODESYS (2023-2024)</h4>
+          <p>EEE413 - Programmable Logic Controllers class</p>
+
+          <h4>Acted as a mentor student and given lectures to a group (2022)</h4>
+          <p>EEE103 Introduction to Programming class for a semester </p>
+
+          <h4>Given Entry Level Python Lectures (2022)</h4>
+          <p>IEEE Student Branch</p>
         </div>
         <div class="text">
           <h3>TOSFED (2024-Present)</h3>
@@ -333,18 +340,36 @@
       <div class="projects">
         <h2>PROJECT REPOSITORIES</h2>
         <div class="text">
+          <h4>NDA/Company Owned Projects</h4>
+          <h3>Tester-Developer Portal</h3>
+          <p><b>[Django/HTML/CSS/JQuery]</b> In my internship at <i>SCW.AI</i>, after changing their case report
+            system,
+            they needed a portal website for both developers and testers to access.
+            Website had:<br>
+            ‣ Django templates<br>
+            ‣ AJAX implementation<br>
+            ‣ Dark and Light modes<br>
+            ‣ Google Login<br>
+            ‣ Two search functions for <i>case_id</i> and <i>title</i> using the new system's API which are
+            automatically seperated at the backend; CASE ID and TITLE<br>
+            ‣ Pop-up image displays
+          </p>
+        </div>
+        <div class="text">
           <h4>Public Github Repos</h4>
           <a href="https://github.com/hardenedcotton/RL_driver" target=”_blank”>
             <h3>RL_driver<sup>[WIP]</sup></h3>
           </a>
-          <p><b>[Python]</b> My hobby project which aims to use a Reinforcement Learning model to create a self driving
+          <p><b>[Python]</b> My hobby project which aims to use a Reinforcement Learning model to create a self
+            driving
             racing car. Which then is used to compute the ideal racing line.</p>
 
           <a href="https://github.com/hardenedcotton/MFBC" target=”_blank”>
             <h3>MFBC<sup>[WIP]</sup></h3>
           </a>
           <p><b>[Python]</b> My TÜBİTAK 1002 Submisson and also my degree finishing project. Math Function Based
-            Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to
+            Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.)
+            to
             convolve each RGB channel. </p>
 
           <a href="https://github.com/hardenedcotton/BoarRepellent" target=”_blank”>
@@ -400,22 +425,6 @@
             <h3>ShutdownTimer</h3>
           </a>
           <p><b>[C#]</b> A GUI project that sets a countdown timer to shutdown your pc.</p>
-        </div>
-        <div class="text">
-          <h4>NDA/Company Owned Projects</h4>
-          <h3>Tester-Developer Portal</h3>
-          <p><b>[Django/HTML/CSS/JQuery]</b> In my internship at <i>SCW.AI</i>, after changing their case report
-            system,
-            they needed a portal website for both developers and testers to access.
-            Website had:<br>
-            ‣ Django templates<br>
-            ‣ AJAX implementation<br>
-            ‣ Dark and Light modes<br>
-            ‣ Google Login<br>
-            ‣ Two search functions for <i>case_id</i> and <i>title</i> using the new system's API which are
-            automatically seperated at the backend; CASE ID and TITLE<br>
-            ‣ Pop-up image displays
-          </p>
         </div>
       </div>
     </div>

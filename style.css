@@ -136,7 +136,7 @@ h2 {
 
 h3 {
 
-    font-size: 18pt;
+    font-size: 20pt;
 }
 
 h4 {
@@ -148,6 +148,7 @@ h4 {
 
 p {
     font-size: 14pt;
+    margin-bottom: 0;
 }
 
 a {
@@ -196,28 +197,27 @@ a:hover {
     padding-bottom: -60px;
 }
 .all-languages {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     padding-top: 10px;
     padding-bottom: -60px;
 }
 
-#programming-languages .languages {
+.programming-languages .languages {
     text-align: right; 
   }
 
 .language-individual {
-    display: flex;
+    display: grid;
 }
 
-.language-individual .text {
-    width: 50%;
-}
 
 .language-individual p {
     font-weight: 300;
 }
 
-#programming-languages h2{
-    margin-left: 8rem;
+.programming-languages h2{
+    margin-left: 6.75vw;
 }
 
 .programming-skills {
@@ -225,42 +225,28 @@ a:hover {
     margin-bottom: 30px;
 }
 
-
-.skill {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
 .skill-name {
     width: 6vw;
     text-align: right;
-    margin-right: 20px;
     font-weight: bold;
 }
 
-#programming-languages .table {
+.programming-languages .table {
     --bs-table-color: var(--color-primary-right);
     --bs-table-bg: var(--color-bg-right);
 }
-.progress-bar {
-    flex-grow: 1;
-    background-color: var(--color-bars-secondary);
-    height: 25px;
-    overflow: hidden;
-    border-radius: 50px;
+
+td {
+    padding-left: 100px;
+    min-width: 6vw;
 }
 
-.progress {
-    height: 100%;
-    background-color: var(--color-bars-primary);
-    border-radius: 50px 0 0 50px;
-}
-#programming-languages .note {
-    padding-right: .75rem;
+.programming-languages .note {
+    padding-right: 1vw;
     text-align: right;
     font-weight: 300;
     font-size: 12pt;
+    font-style: italic;
 }
 
 .skills .two-cols {

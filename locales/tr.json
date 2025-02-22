@@ -1,0 +1,287 @@
+{
+  "links": "DIŞ<br>LİNKLER",
+  "birthPlace": "İzmir/Türkiye",
+  "contact": {
+    "title": "İLETİŞİM<br>& ADRES",
+    "city": "Katabağlar/İzmir",
+    "country": "TÜRKİYE"
+  },
+  "interests": {
+    "title": "İLGİ ALANLARI",
+    "content": {
+      "line1": "Motorsporları",
+      "line2": "Havacılık",
+      "line3": "Fotoğrafçılık",
+      "line4": "Programlama",
+      "line5": "Ekstrem Sporlar",
+      "line6": "Çizim",
+      "line7": "Film ve Diziler",
+      "line8": "Bilgisayar Oyunları",
+      "line9": "3D Modelleme",
+      "line10": "Müzik"
+    }
+  },
+  "references": {
+    "title": "REFERANSLAR",
+    "ref1": {
+      "name": "Güray GENİŞ",
+      "position": "Senior IoT Manager",
+      "company": "SCW.AI",
+      "tel": "+90 530 289 47 87",
+      "mail": "guraygenis@gmail.com"
+    },
+    "ref2": {
+      "name": "Selami BEYHAN",
+      "position": "Doç. Dr.</br>Elektrik Elektronik Mühendisi",
+      "company": "Yıldız Technical University",
+      "tel": "+90 530 247 53 55",
+      "mail": "selamibeyhan@gmail.com"
+    },
+    "ref3": {
+      "name": "Ömer YASSIKAYA",
+      "position": "Elektrik Elektronik Mühendisi",
+      "company": "Batel Elektromekanik",
+      "tel": "+90 554 276 67 45"
+    }
+  },
+  "aboutMe": {
+    "title": "HAKKIMDA",
+    "content": "İzmir’de doğup büyüdüm ve hatırladığım kadarıyla her zaman elektronik ve bilgisayarlarla ilgilenmişimdir. Merakım, çocukken aileme sorduğum basit bir soruyla başladı, silinen dosyalar nereye gider Bu merakım hızla, bazı şeylerin nasıl çalıştığını anlamaya yönelik bir tutkuya dönüştü. Çoğu zaman eşyaları parçalara ayırarak içindekileri görmekten kendimi alıkoyamadım.<br>Yıllar içinde bu tutku beni programlamaya ve mühendisliğe yönlendirdi ve sıfırdan bir şeyler inşa etmek, yeni fikirlerle denemeler yapmak benim için keyifli bir süreç haline geldi. Hobilerim üzerine projeler geliştirmeyi seviyor ve sürekli yeni şeyler öğrenme fırsatları arıyorum. Tasarıma olan ilgim de yaratıcı süreçlerimde önemli bir yer tutuyor; Photoshop ve Blender gibi yazılımlar üzerinde vakit geçirerek dijital yaratıcılığın hem teknik hem de sanatsal yönlerini keşfedebiliyorum.<br>Teknolojinin yanısıra, motor sporlarına olan ilgim de büyük; yarış mühendisliğinin ardındaki mühendislik dehasına hayran kalıyorum. İster programlama, ister tasarım, isterse yüksek performans mühendislik olsun, yenilik, problem çözme ve sınırları zorlama konusunda tutkuluyum."
+  },
+  "languages": {
+    "title": "DİLLER",
+    "name": {
+      "turkish": "Türkçe",
+      "english": "İngilizce",
+      "german": "Almanca"
+    },
+    "level": {
+      "native": "Anadil",
+      "beginner": "Başlangıç Seviyesi"
+    }
+  },
+  "programmingLanguages": {
+    "title": "PROGRAMLAMA DİLLERİ",
+    "advanced": "İleri Seviye",
+    "intermediate": "Orta Seviye",
+    "basic": "Basit Seviyede",
+    "entry": "Giriş Seviyesi",
+    "content": {
+      "python": "Uygulama geliştirme, veri bilimi ve makine öğrenimi konusunda geniş deneyim",
+      "plc": "TIA Portal ve CODESYS için birden fazla simülasyon yapıldı ve dersler verildi",
+      "cpp": "Gömülü uygulamalarda kullanıldı",
+      "html": "Full-stack geliştirme",
+      "matlab": "Sinyal işleme ve kontrol teorisi",
+      "java": "İlk projem olarak bir GUI oyunu yaptım",
+      "cs": "Küçük çaplı bir Windows uygulaması için kullanıldı",
+      "note": "Belirtilen bilgi seviyesi kişisel değerlendirmeye dayanmaktadır ve çalışma alanlarıma göredir"
+    }
+  },
+  "skills": {
+    "title": "YETENEKLER",
+    "line1": "Full Stack Web Geliştirme (Django)",
+    "line2": "Obje Tabanlı Programlama",
+    "line3": "Veri Bilimi & İşleme",
+    "line4": "Git ve Versiyon Kontrolü",
+    "line5": "Sinyal İşleme",
+    "line6": "Makine Öğrenmesi / Derin Öğrenme",
+    "line7": "PLC Tasarımı",
+    "line8": "Gömülü Sistemler",
+    "line9": "Yüksek Gerilim Devreleri ve Bileşenleri",
+    "line10": "e-Tablo Yetkinliği",
+    "line11": "2D/3D Tasarım Yazılımları",
+    "line12": "İlkyardım"
+  },
+  "experience": {
+    "title": "DENEYİMLER",
+    "batel": {
+      "name": "Batel Elektromekanik",
+      "duration": "2023 Ağustos-Eylül",
+      "position": "Ar-Ge Elektrik-Elektronik Mühendisliği Stajyeri (8 hafta)",
+      "subjects": {
+        "line1": "Yüksek Gerilim Devreleri ve Yük Kesiciler",
+        "line2": "Veri İşleme"
+      }
+    },
+    "scw": {
+      "name": "SCW.AI",
+      "duration": "2022 Ağustos-Eylül",
+      "position": "Yazılım Geliştirme Stajyeri (9 hafta)",
+      "subjects": {
+        "line1": "Django ile Full stack web geliştirme"
+      }
+    },
+    "hackathon": {
+      "name": "<i>Akıllı Şehirler Hackathon</i> Birincisi",
+      "description": "Acil Geçiş İkaz Sistemi (AGİS) adlı projemiz, sürücülerin yaklaşan acil durum araçlarından haberdar olmasını sağlamak amacıyla navigasyon uygulamaları ve yol üzerindeki dijital uyarı tabelalarını kullanarak acil durum müdahale sürecini iyileştirmeyi hedefliyor.",
+      "clickText": "İlgili haberleri görmek için tıkla",
+      "articles": {
+        "line1": "İzmir Büyükşehir Belediyesi",
+        "line2": "EMO Websitesi",
+        "line3": "İDÜ Mühendislik Sayfası",
+        "line4": "Canlı Röportaj"
+      },
+      "organizer": "Organizatörler: Elektrik Mühendisleri Odası (EMO) İzmir Şubesi, İzmir İnovasyon ve Teknoloji A.Ş ve İzQ İnovasyon Merkezi"
+    },
+    "academic": {
+      "name": "Akademik Projeler",
+      "project": {
+        "title": "TÜBiTAK 1002 ",
+        "duration": "2024-Devam Ediyor",
+        "description": "Sembolik Filtreleme Tabanlı Öznitelik Çıkarımı ile Görüntü Sınıflandırma Performansının Artırılması ve Tarımda İlaçlama Normunun Belirlenmesi"
+      }
+    },
+    "lecturing": {
+      "name": "Üniversite Ders Anlatımları",
+      "experiences": {
+        "experience1": {
+          "description": "PLC ve CODESYS için iki kez ders anlatımı",
+          "place": "EEE413 - Programmable Logic Controllers dersi"
+        },
+        "experience2": {
+          "description": "Bir gruba mentör öğrenci olarak ders anlatımı",
+          "place": "EEE103 - Introduction to Programming dersi için bir dönem boyunca"
+        },
+        "experience3": {
+          "description": "Giriş Seviyesi Python Dersleri",
+          "place": "IEEE Öğrenci Kolu"
+        }
+      }
+    },
+    "tosfed": {
+      "name": "TOSFED",
+      "duration": "2024-Devam Ediyor",
+      "position": "D Sınıfı Yarış Gözetmeni"
+    }
+  },
+  "education": {
+    "title": "EĞİTİM",
+    "uni": {
+      "name": "İzmir Demokrasi Üniversitesi",
+      "duration": "2020-Devam Ediyor",
+      "degree": "Elektrik Elektronik Mühendisliği [BE]",
+      "experience": {
+        "line1": {
+          "description": "IEEE Öğrenci Kolu'nda Sayman ve Tanıtım-Tasarım Komitesi Başkanı ",
+          "duration": "2024-Devam Ediyor"
+        },
+        "line2": {
+          "description": "IEEE Öğrenci Kolu'nda Başkan Yardımcısı ve Tanıtım-Tasarım Komitesi Başkanı",
+          "duration": "2022-2024"
+        },
+        "line3": {
+          "description": "Google Developer Student Club Üyesi",
+          "duration": "2022-2023"
+        }
+      }
+    },
+    "highschool": {
+      "name": "Nevvar Salih İşgören Anadolu Lisesi",
+      "duration": "2016-2020",
+      "experience": {
+        "line1": {
+          "description": "Gönüllü ses sistemleri sorumlusu",
+          "duration": "2017-2020"
+        },
+        "line2": {
+          "description": "Şu anda kullanılan t-shirt ve logonun tasarımı",
+          "duration": "2018"
+        },
+        "line3": {
+          "description": "TÜBİTAK 4006 katılımcısı",
+          "duration": "2018"
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "PROJELER",
+    "nda": {
+      "title": "Gizlilik Sözleşmesi/Şirketlere Ait Projeler",
+      "projects": {
+        "project1": {
+          "title": "Tester-Developer Portal",
+          "language": "Django/HTML/CSS/JQuery",
+          "description": "In my internship at <i>SCW.AI</i>, after changing their case report system, they needed a portal website for both developers and testers to access. Website had:<br>‣ Django templates<br>‣ AJAX implementation<br>‣ Dark and Light modes<br>‣ Google Login<br>‣ Two search functions for <i>case_id</i> and <i>title</i> using the new system's API which are automatically seperated at the backend; CASE ID and TITLE<br>‣ Pop-up image displays"
+        }
+      }
+    },
+    "github": {
+      "title": "Herkese Açık Github Projeleri",
+      "projects": {
+        "project1": {
+          "title": "RL_driver<sup>[WIP]</sup>",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/RL_driver",
+          "description": "My hobby project which aims to use a Reinforcement Learning model to create a self driving racing car. Which then is used to compute the ideal racing line."
+        },
+        "project2": {
+          "title": "MFBC<sup>[WIP]</sup>",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/MFBC",
+          "description": "My TÜBİTAK 1002 Submisson and also my degree finishing project. Math Function Based Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to convolve each RGB channel."
+        },
+        "project3": {
+          "title": "BoarRepellent",
+          "language": "Arduino",
+          "link": "https://github.com/hardenedcotton/BoarRepellent",
+          "description": "My first monetized project. This project aims to use different sound effects to scare the invasive boars that roam in the dark hours in farming areas."
+        },
+        "project4": {
+          "title": "SignalZeroOverlapper",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/SignalZeroOverlapper",
+          "description": "Includes low level image processing to create a social media-like filter."
+        },
+        "project5": {
+          "title": "BasicImageFiltering",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/BasicImageFiltering",
+          "description": "Includes low level image processing to create a social media-like filter."
+        },
+        "project6": {
+          "title": "BruteForceAttack",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/BruteForceAttack",
+          "description": "Just a pastime project. It works by trying every combination of 94 ASCII characters. Mean Measured Time for 5 char passwords is around 20 minutes. Still to be improved."
+        },
+        "project7": {
+          "title": "CodesysLecture",
+          "language": "Codesys/PLCSim/Matlab",
+          "link": "https://github.com/hardenedcotton/CodesysLecture",
+          "description": "For a lecture I had given for the PLC class."
+        },
+        "project8": {
+          "title": "PythonLectures",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/PythonLectures",
+          "description": "Lecture notes that I have created for our IEEE Student Branch lessons."
+        },
+        "project9": {
+          "title": "DSP_Doppler_ECG_Resp",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/DSP_Doppler_ECG_Resp",
+          "description": "Digital processing and filtering of a Doppler Radar signal in Python to estimate the heartrate and respiration rate."
+        },
+        "project10": {
+          "title": "DataScienceGeoSpatial",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/DataScienceGeoSpatial",
+          "description": "Using adress names to geolocate and visualise several data."
+        },
+        "project11": {
+          "title": "CursorMaze",
+          "language": "Java",
+          "link": "https://github.com/hardenedcotton/CursorMaze",
+          "description": "My first programming project ever. A GUI maze puzzle that you follow through with your mouse without colliding with the walls."
+        },
+        "project12": {
+          "title": "ShutdownTimer",
+          "language": "C#",
+          "link": "https://github.com/hardenedcotton/ShutdownTimer",
+          "description": "A GUI project that sets a countdown timer to shutdown your pc."
+        }
+      }
+    }
+  }
+}

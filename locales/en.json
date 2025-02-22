@@ -1,0 +1,288 @@
+{
+  "links": "EXTERNAL<br>LINKS",
+  "birthPlace": "İzmir/Turkey",
+  "contact": {
+    "title": "CONTACT<br>& ADDRESS",
+    "city": "Karabağlar/İzmir",
+    "country": "TURKEY"
+  },
+  "interests": {
+    "title": "INTERESTS",
+    "content": {
+      "line1": "Motorsports",
+      "line2": "Aviation",
+      "line3": "Photography",
+      "line4": "Programming",
+      "line5": "Extreme Sports",
+      "line6": "Drawing",
+      "line7": "Movies and Shows",
+      "line8": "Video Games",
+      "line9": "3D Modelling",
+      "line10": "Music"
+    }
+  },
+  "references": {
+    "title": "REFERENCES",
+    "ref1": {
+      "name": "Güray GENİŞ",
+      "position": "Senior IoT Manager",
+      "company": "SCW.AI",
+      "tel": "+90 530 289 47 87",
+      "mail": "guraygenis@gmail.com"
+    },
+    "ref2": {
+      "name": "Selami BEYHAN",
+      "position": "Assoc. Prof. Dr.</br>Electrical-Electronics Engineering",
+      "company": "Yıldız Technical University",
+      "tel": "+90 530 247 53 55",
+      "mail": "selamibeyhan@gmail.com"
+    },
+    "ref3": {
+      "name": "Ömer YASSIKAYA",
+      "position": "Electrical-Electronics Engineer",
+      "company": "Batel Electromechanic",
+      "tel": "+90 554 276 67 45"
+    }
+  },
+  "aboutMe": {
+    "title": "ABOUT ME",
+    "content": "I was born and raised in İzmir, and for as long as I can remember, I’ve been fascinated by electronics and computers. My curiosity started with a simple question to my parents: Where do all the deleted files go? That curiosity quickly turned into a passion for understanding how things work, often by taking them apart to see what’s the engineering like inside.<br>Over the years, this drive led me to programming and engineering, where I find joy in building things from scratch and experimenting with new ideas. I enjoy working on hobby projects and constantly seek opportunities to learn and refine my skills. My passion for design also plays a big role in my creative process; I spend much of my free time in software like Photoshop and Blender, exploring both technical and artistic aspects of digital creation.<br>Beyond technology, I am a dedicated motorsports fan, always intrigued by the engineering brilliance behind racing. Whether it's programming, design, or high-performance engineering, I thrive on innovation, problem-solving, and pushing boundaries."
+  },
+  "languages": {
+    "title": "LANGUAGES",
+    "name": {
+      "turkish": "Turkish",
+      "english": "English",
+      "german": "German"
+    },
+    "level": {
+      "native": "Native",
+      "beginner": "Beginner"
+    }
+  },
+  "programmingLanguages": {
+    "title": "PROGRAMMING LANGUAGES",
+    "advanced": "Advanced",
+    "intermediate": "Intermediate",
+    "basic": "Basic",
+    "entry": "Entry",
+    "content": {
+      "python": "Extensive experience in app developement, data science and machine learning",
+      "plc": "Used for multiple simulations and given lectures for TIA portal and CODESYS",
+      "cpp": "Used in embedded applications",
+      "html": "Full-stack development",
+      "matlab": "Signal processing and control theory",
+      "java": "Made a GUI game for my first ever project",
+      "cs": "Used for a small windows app",
+      "note": "Indicated knowledge level is based on personal assessment and relative to my working areas"
+    }
+  },
+  "skills": {
+    "title": "SKILLS",
+    "line1": "Full Stack Web Development (Django)",
+    "line2": "Object Oriented Programming",
+    "line3": "Data Science & Processing",
+    "line4": "Git and Version Control",
+    "line5": "Signal Processing",
+    "line6": "Machine Learning / Deep Learning",
+    "line7": "PLC Design",
+    "line8": "Embedded Systems",
+    "line9": "High Voltage Circuits and Components",
+    "line10": "Spreadsheet Proficiency",
+    "line11": "2D/3D Design Softwares",
+    "line12": "First Aid"
+  },
+  "experience": {
+    "title": "EXPERIENCE",
+    "batel": {
+      "name": "Batel Electromechanic",
+      "duration": "2023 August-September",
+      "position": "R&D Electrical-Electronics Engineering Intern (8 weeks)",
+      "subjects": {
+        "line1": "High Voltage Circuit and Load Breakers",
+        "line2": "Data Processing"
+      }
+    },
+    "scw": {
+      "name": "SCW.AI",
+      "duration": "2022 August-September",
+      "position": "Software Development Intern (9 weeks)",
+      "subjects": {
+        "line1": "Full stack web development with Django"
+      }
+    },
+    "hackathon": {
+      "name": "Winner of the <i>Smart Cities Hackathon</i>",
+      "description": "Our project, Acil Geçiş İkaz Sistemi <i style=\" font-size: 8;\">[Emergency Passage Alert System]</i> (AGİS), aims to improve emergency response efficiency by allowing drivers to be aware of incoming emergency vehicles by using navigation apps and on-road digital warning signs.",
+      "clickText": "Click to reveal news articles",
+      "articles": {
+        "line1": "İzmir Büyükşehir Belediyesi",
+        "line2": "EMO Website",
+        "line3": "IDU Engineering Page",
+        "line4": "Live Interview"
+      },
+      "organizer": "Organised by Elektrik Mühendisleri Odası (EMO) İzmir Şubesi, İzmir İnovasyon ve Teknoloji A.Ş ve İzQ İnovasyon Merkezi"
+    },
+    "academic": {
+      "name": "Academic Projects",
+      "project": {
+        "title": "TÜBiTAK 1002 ",
+        "duration": "2024-Ongoing",
+        "description": "Sembolik Filtreleme Tabanlı Öznitelik Çıkarımı ile Görüntü Sınıflandırma Performansının Artırılması ve Tarımda İlaçlama Normunun Belirlenmesi"
+      }
+    },
+    "lecturing": {
+      "name": "University Lecturing",
+      "experiences": {
+        "experience1": {
+          "description": "Given two lectures about PLC and CODESYS",
+          "place": "EEE413 - Programmable Logic Controllers class"
+        },
+        "experience2": {
+          "description": "Acted as a mentor student and given lectures to a group",
+          "place": "EEE103 - Introduction to Programming class for a semester"
+        },
+        "experience3": {
+          "description": "Given Entry Level Python Lectures",
+          "place": "IEEE Student Branch"
+        }
+      }
+    },
+    "tosfed": {
+      "name": "TOSFED",
+      "duration": "2024-Present",
+      "position": "D Licenced Racing Marshall"
+    }
+  },
+  "education": {
+    "title": "EDUCATION",
+    "uni": {
+      "name": "İzmir Democracy University",
+      "duration": "2020-Present",
+      "degree": "Electrical Electronical Engineering [BE]",
+      "experience": {
+        "line1": {
+          "description": "Accountant and Head of Design & Publicity in IEEE Student Branch",
+          "duration": "2024-Present"
+        },
+        "line2": {
+          "description": "Vice Chairman and Head of Design & Publicity in IEEE Student Branch",
+          "duration": "2022-2024"
+        },
+        "line3": {
+          "description": "Member of Google Developer Student Clubs",
+          "duration": "2022-2023"
+        }
+      }
+    },
+    "highschool": {
+      "name": "Nevvar Salih İşgören Anatolian High School",
+      "duration": "2016-2020",
+      "experience": {
+        "line1": {
+          "description": "Voluntary sound systems technician",
+          "duration": "2017-2020"
+        },
+        "line2": {
+          "description": "Designed the current T-shirts and the logo",
+          "duration": "2018"
+        },
+        "line3": {
+          "description": "TÜBİTAK 4006 contender",
+          "duration": "2018"
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "PROJECTS",
+
+    "nda": {
+      "title": "NDA/Company Owned Projects",
+      "projects": {
+        "project1": {
+          "title": "Tester-Developer Portal",
+          "language": "Django/HTML/CSS/JQuery",
+          "description": "In my internship at <i>SCW.AI</i>, after changing their case report system, they needed a portal website for both developers and testers to access. Website had:<br>‣ Django templates<br>‣ AJAX implementation<br>‣ Dark and Light modes<br>‣ Google Login<br>‣ Two search functions for <i>case_id</i> and <i>title</i> using the new system's API which are automatically seperated at the backend; CASE ID and TITLE<br>‣ Pop-up image displays"
+        }
+      }
+    },
+    "github": {
+      "title": "Public Github Repos",
+      "projects": {
+        "project1": {
+          "title": "RL_driver<sup>[WIP]</sup>",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/RL_driver",
+          "description": "My hobby project which aims to use a Reinforcement Learning model to create a self driving racing car. Which then is used to compute the ideal racing line."
+        },
+        "project2": {
+          "title": "MFBC<sup>[WIP]</sup>",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/MFBC",
+          "description": "My TÜBİTAK 1002 Submisson and also my degree finishing project. Math Function Based Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to convolve each RGB channel."
+        },
+        "project3": {
+          "title": "BoarRepellent",
+          "language": "Arduino",
+          "link": "https://github.com/hardenedcotton/BoarRepellent",
+          "description": "My first monetized project. This project aims to use different sound effects to scare the invasive boars that roam in the dark hours in farming areas."
+        },
+        "project4": {
+          "title": "SignalZeroOverlapper",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/SignalZeroOverlapper",
+          "description": "Includes low level image processing to create a social media-like filter."
+        },
+        "project5": {
+          "title": "BasicImageFiltering",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/BasicImageFiltering",
+          "description": "Includes low level image processing to create a social media-like filter."
+        },
+        "project6": {
+          "title": "BruteForceAttack",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/BruteForceAttack",
+          "description": "Just a pastime project. It works by trying every combination of 94 ASCII characters. Mean Measured Time for 5 char passwords is around 20 minutes. Still to be improved."
+        },
+        "project7": {
+          "title": "CodesysLecture",
+          "language": "Codesys/PLCSim/Matlab",
+          "link": "https://github.com/hardenedcotton/CodesysLecture",
+          "description": "For a lecture I had given for the PLC class."
+        },
+        "project8": {
+          "title": "PythonLectures",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/PythonLectures",
+          "description": "Lecture notes that I have created for our IEEE Student Branch lessons."
+        },
+        "project9": {
+          "title": "DSP_Doppler_ECG_Resp",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/DSP_Doppler_ECG_Resp",
+          "description": "Digital processing and filtering of a Doppler Radar signal in Python to estimate the heartrate and respiration rate."
+        },
+        "project10": {
+          "title": "DataScienceGeoSpatial",
+          "language": "Python",
+          "link": "https://github.com/hardenedcotton/DataScienceGeoSpatial",
+          "description": "Using adress names to geolocate and visualise several data."
+        },
+        "project11": {
+          "title": "CursorMaze",
+          "language": "Java",
+          "link": "https://github.com/hardenedcotton/CursorMaze",
+          "description": "My first programming project ever. A GUI maze puzzle that you follow through with your mouse without colliding with the walls."
+        },
+        "project12": {
+          "title": "ShutdownTimer",
+          "language": "C#",
+          "link": "https://github.com/hardenedcotton/ShutdownTimer",
+          "description": "A GUI project that sets a countdown timer to shutdown your pc."
+        }
+      }
+    }
+  }
+}

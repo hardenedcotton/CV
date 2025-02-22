@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 
@@ -54,6 +55,10 @@
     --color-bars-primary: black;
     --color-bars-secondary: #b6b6b6;
     --left-column-border: 0.3vw solid #888;
+    .btn-outline-dark {
+        --bs-btn-border-color: black;
+        --bs-btn-color: black;
+    }
 }
   
 [prefers-color-scheme="dark"] {
@@ -64,12 +69,19 @@
     --color-bars-primary: white;
     --color-bars-secondary: #292929;
     --left-column-border: 0.3vw solid var(--color-primary-left);
+    .btn-outline-dark {
+        --bs-btn-border-color: white;
+        --bs-btn-color: white;
+    }
 
 }
 
+.dropdown-menu {
+    --bs-dropdown-min-width: 60px;
+}
 .last-update {
     margin-top: -44px;
-    margin-left: 200px;
+    margin-left: 280px;
     font-size: 12px;
 }
 
@@ -90,6 +102,7 @@
 body {
     font-family: Roboto, sans-serif;
     /* justify-content: center; */
+
 }
 
 button {
@@ -170,7 +183,7 @@ a:hover {
 
 #interest-left-col{
     text-align: left;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 .links div {
@@ -217,7 +230,7 @@ a:hover {
 }
 
 .programming-languages h2{
-    margin-left: 6.75vw;
+    margin-left: 7.35vw;
 }
 
 .programming-skills {
@@ -238,7 +251,7 @@ a:hover {
 
 td {
     padding-left: 100px;
-    min-width: 6vw;
+    min-width: 7vw;
 }
 
 .programming-languages .note {

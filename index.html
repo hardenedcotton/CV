@@ -17,401 +17,374 @@
   <meta property="og:title" content="Onur Ümit Şener - CV">
   <!-- <meta property="og:description" content="My CV as a website"> -->
   <meta property="og:image" content="https://hardenedcotton.github.io/CV/assets/ous_banner.jpg">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
 </head>
 
 <body>
-  <div class="content ">
-    <div class="left-column col-xs-4 col-3">
-      <h1>Onur Ümit Şener</h1>
-      <div class="profile-picture">
-        <img src="assets/ous.jpg" alt="my picture">
-      </div>
-      <div class="birth">
-        <div class="text">
-          <p>25.03.2002</p>
-          <p>İzmir/Turkey</p>
-        </div>
-      </div>
-      <div class="links">
-        <h2>EXTERNAL<br>LINKS</h2>
-        <br>
-        <div class="align-items-center">
-          <a href="https://github.com/hardenedcotton/" target=”_blank” role="button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-github"
-              viewBox="0 0 16 16">
-              <path
-                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-            </svg>
-            <span id="github">
-              /hardenedcotton
-            </span>
-          </a>
-        </div>
-        <div class="align-items-center">
-          <a href="https://www.linkedin.com/in/onurumitsener/" target=”_blank”>
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-linkedin"
-              viewBox="0 0 16 16">
-              <path
-                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
-            </svg>
-            <span id="linkedin">
-              /in/onurumitsener
-            </span>
-          </a>
-        </div>
-      </div>
-      <div class="contact-info">
-        <h2>CONTACT<br>& ADDRESS</h2>
-        <div class="text">
-          <a href="tel:+905074364294">+90 (507) 436 4294</a><br>
-          <a href="mailto:onurumitsener@gmail.com">onurumitsener<wbr>@gmail.com</a>
-          <br><br>
-          <p>Karabağlar/İzmir</p>
-          <p>TURKEY</p>
-        </div>
-      </div>
-      <div class="interests">
-        <h2>INTERESTS</h2>
-        <div class="text">
-          <div id="interest-left-col">
-            <p>Motorsports</p>
-            <p>Aviation</p>
-            <p>Photography</p>
-            <p>Programming</p>
-            <p>Extreme Sports</p>
-          </div>
-          <div id="interest-right-col">
-            <p>Drawing</p>
-            <p>Movies and Shows</p>
-            <p>Video Games</p>
-            <p>3D Modelling</p>
-            <p>Music</p>
-          </div>
-        </div>
-      </div>
-      <div class="references">
-        <h2>REFERENCES</h2>
-        <div class="text">
-          <div class="reference-contact">
-            <h3>Güray GENİŞ</h3>
-            <h4>Senior IoT Manager</h4>
-            <h6>@ SCW.AI</h6>
-            <a href="tel:+905302894787">+90 530 289 47 87</a><br>
-            <a href="mailto:guraygenis@gmail.com">guraygenis@gmail.com</a>
-          </div>
-          <div class="reference-contact">
-            <h3>Selami BEYHAN</h3>
-            <h4>Assoc. Prof. Dr.</br>Electrical-Electronics Engineering</h4>
-            <h6>@ Yıldız Technical University</h6>
-            <a href="tel:+905302475355">+90 530 247 53 55</a><br>
-            <a href="mailto:selamibeyhan@gmail.com">selamibeyhan@gmail.com</a>
-          </div>
-          <div class="reference-contact">
-            <h3>Ömer YASSIKAYA</h3>
-            <h4>Electrical-Electronics Engineer</h4>
-            <h6>@ Batel Electromechanic</h6>
-            <a href="tel:+905542766745">+90 554 276 67 45</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="right-column col">
-      <div class="buttons">
-        <button type="button" class="btn btn-outline-dark" id="print-button" onClick="window.print()">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer-fill"
-            viewBox="0 0 16 16">
-            <path
-              d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1" />
-            <path
-              d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
-          </svg>
-          Print my CV
-        </button>
-        <button theme-toggle type="button" class="btn btn-outline-dark justify-content-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-moon-fill"
-            viewBox="0 0 16 16">
-            <path
-              d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
-          </svg>
-          Dark Mode
-        </button>
-        <p class="last-update">Last Updated: 18.02.2025</p>
+  <div id="cv-content"></div>
 
-      </div>
-      <div class="about-me">
-        <h1>ABOUT ME</h1>
-        <div class="text">
-          <p>
-            I was born and raised in İzmir, and for as long as I can remember, I’ve been fascinated by electronics and
-            computers. My curiosity started with a simple question to my parents: Where do all the deleted files go?
-            That curiosity quickly turned into a passion for understanding how things work, often by taking them apart
-            to see what’s the engineering like inside.<br>
-            Over the years, this drive led me to programming, where I find joy in building things from scratch and
-            experimenting with new ideas. I enjoy working on hobby projects and constantly seek opportunities to learn
-            and refine my skills. My passion for design also plays a big role in my creative process; I spend much of my
-            free time in software like Photoshop and Blender, exploring both technical and artistic aspects of digital
-            creation.<br>
-            Beyond technology, I am a dedicated motorsports fan, always intrigued by the engineering brilliance behind
-            racing. Whether it's programming, design, or high-performance engineering, I thrive on innovation,
-            problem-solving, and pushing boundaries.
-          </p>
+  <script src="language.js"></script>
+  <script id="cv-template" type="text/x-handlebars-template">
+    <div class="content">
+      <div class="left-column col-xs-4 col-3">
+        <h1>Onur Ümit Şener</h1>
+        <div class="profile-picture">
+          <img src="assets/ous.jpg" alt="my picture">
         </div>
-      </div>
-      <div class="all-languages">
-        <div class="speaking-languages">
-          <h2>LANGUAGES</h2>
-          <div class="language-individual">
-            <div class="text">
-              <h3>Turkish</h3>
-              <p>Native</p>
-            </div>
-            <div class="text">
-              <h3>English</h3>
-              <p>C1</p>
-            </div>
-            <div class="text">
-              <h3>German</h3>
-              <p>Beginner</p>
-            </div>
-          </div>
-        </div>
-        <div class="programming-languages">
-          <h2>
-            PROGRAMMING
-            LANGUAGES
-          </h2>
-          <table class="table table-borderless">
-            <tbody>
-              <tr>
-                <td class="skill-name">Python</td>
-                <td>Advanced</td>
-                <td>Extensive experience in app developement, data science and machine learning</td>
-              </tr>
-              <tr>
-                <td class="skill-name">PLC</td>
-                <td>Advanced</td>
-                <td>Used for multiple simulations and given lectures for TIA portal and CODESYS</td>
-              </tr>
-              <tr>
-                <td class="skill-name">C++</td>
-                <td>Intermediate</td>
-                <td>Used in embedded applications</td>
-              </tr>
-              <tr>
-                <td class="skill-name">HTML/JS/CSS</td>
-                <td>Intermediate</td>
-                <td>Full-stack development</td>
-              </tr>
-              <tr>
-                <td class="skill-name">Matlab</td>
-                <td>Intermediate</td>
-                <td>Signal processing and control theory</td>
-              </tr>
-              <tr>
-                <td class="skill-name">Java</td>
-                <td>Basic</td>
-                <td>Made a GUI game for my first ever project</td>
-              </tr>
-              <tr>
-                <td class="skill-name">C#</td>
-                <td>Entry</td>
-                <td>Used for a small windows app</td>
-              </tr>
-            </tbody>
-          </table>
-          <p class="note">*Indicated knowledge level is based on personal assessment and relative to my working areas
-          </p>
-
-        </div>
-      </div>
-      <div class="skills">
-        <h2>SKILLS</h2>
-        <div class="two-cols">
+        <div class="birth">
           <div class="text">
-            <p>Full Stack Web Development (Django)</p>
-            <p>Object Oriented Programming</p>
-            <p>Data Science & Processing</p>
-            <p>Git and Version Control</p>
-            <p>Signal Processing</p>
-            <p>Machine Learning / Deep Learning</p>
-            <p>PLC Design</p>
-            <p>Embedded Systems</p>
-            <p>High Voltage Circuits and Components</p>
-            <p>Spreadsheet Proficiency</p>
-            <p>2D/3D Design Softwares</p>
-            <p>First Aid</p>
+            <p>25.03.2002</p>
+            <p>{{birthPlace}}</p>
+          </div>
+        </div>
+        <div class="links">
+          <h2>{{{links}}}</h2>
+          <br>
+          <div class="align-items-center">
+            <a href="https://github.com/hardenedcotton/" target=”_blank” role="button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-github"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+              </svg>
+              <span id="github">
+                /hardenedcotton
+              </span>
+            </a>
+          </div>
+          <div class="align-items-center">
+            <a href="https://www.linkedin.com/in/onurumitsener/" target=”_blank”>
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-linkedin"
+                viewBox="0 0 16 16">
+                <path
+                  d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+              </svg>
+              <span id="linkedin">
+                /in/onurumitsener
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-info">
+          <h2>{{{contact.title}}}</h2>
+          <div class="text">
+            <a href="tel:+905074364294">+90 (507) 436 4294</a><br>
+            <a href="mailto:onurumitsener@gmail.com">onurumitsener<wbr>@gmail.com</a>
+            <br><br>
+            <p>{{contact.city}}</p>
+            <p>{{contact.country}}</p>
+          </div>
+        </div>
+        <div class="interests">
+          <h2>{{interests.title}}</h2>
+          <div class="text">
+            <div id="interest-left-col">
+              <p>{{interests.content.line1}}</p>
+              <p>{{interests.content.line2}}</p>
+              <p>{{interests.content.line3}}</p>
+              <p>{{interests.content.line4}}</p>
+              <p>{{interests.content.line5}}</p>
+            </div>
+            <div id="interest-right-col">
+              <p>{{interests.content.line6}}</p>
+              <p>{{interests.content.line7}}</p>
+              <p>{{interests.content.line8}}</p>
+              <p>{{interests.content.line9}}</p>
+              <p>{{interests.content.line10}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="references">
+          <h2>{{references.title}}</h2>
+          <div class="text">
+            <div class="reference-contact">
+              <h3>{{references.ref1.name}}</h3>
+              <h4>{{references.ref1.position}}</h4>
+              <h6>@ {{references.ref1.company}}</h6>
+              <a href="tel:{{references.ref1.tel}}">{{references.ref1.tel}}</a><br>
+              <a href="mailto:{{references.ref1.mail}}">{{references.ref1.mail}}</a>
+            </div>
+            <div class="reference-contact">
+              <h3>{{references.ref2.name}}</h3>
+              <h4>{{{references.ref2.position}}}</h4>
+              <h6>@ {{references.ref2.company}}</h6>
+              <a href="tel:{{references.ref2.tel}}">{{references.ref2.tel}}</a><br>
+              <a href="mailto:{{references.ref2.mail}}">{{references.ref2.mail}}</a>
+            </div>
+            <div class="reference-contact">
+              <h3>{{references.ref3.name}}</h3>
+              <h4>{{{references.ref3.position}}}</h4>
+              <h6>@ {{references.ref3.company}}</h6>
+              <a href="tel:{{references.ref3.tel}}">{{references.ref3.tel}}</a><br>
+              <a href="mailto:{{references.ref3.mail}}">{{references.ref3.mail}}</a>
+            </div>
           </div>
         </div>
       </div>
-      <div class="experience">
-        <h2>EXPERIENCE</h2>
-        <div class="text">
-          <h3>Batel Electromechanic (2023 August-September)</h3>
-          <h4>R&D Electrical-Electronics Engineering Intern (8 weeks)</h4>
-          <p>High Voltage Circuit and Load Breakers</p>
-          <p>Data Processing</p>
+
+
+
+      <div class="right-column col">
+        <div class="buttons">
+          <button type="button" class="btn btn-outline-dark" id="print-button" onClick="window.print()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-printer-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2zm6 8H5a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1" />
+              <path
+                d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
+            </svg>
+            Print my CV
+          </button>
+          <button onClick="toggleTheme()" id="theme-toggle" type="button" class="btn btn-outline-dark justify-content-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-moon-fill"
+              viewBox="0 0 16 16">
+              <path
+                d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278" />
+            </svg>
+          </button>
+          <button class="btn btn-outline-dark dropdown-toggle dropright" id="language-button" type="button" data-bs-toggle="dropdown" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+              <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
+            </svg>
+          </button>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" onclick="setLanguage('en')">EN</a></li>
+              <li><a class="dropdown-item" onclick="setLanguage('tr')">TR</a></li>
+          </ul>
+          <p class="last-update">Last Updated: 18.02.2025</p>
         </div>
-        <div class="text">
-          <h3>SCW.AI (2022 August-September)</h3>
-          <h4>Software Development Intern (9 weeks)</h4>
-          <p>Full stack web development with Django</p>
+        <div class="about-me">
+          <h1>{{aboutMe.title}}</h1>
+          <div class="text">
+            <p>{{{aboutMe.content}}}</p>
+          </div>
         </div>
-        <div class="text">
-          <h3>Hackathon</h3>
-          <h4>Winner of the <i>Smart Cities Hackathon</i>
-          </h4>
-          <p>Our project, Acil Geçiş İkaz Sistemi <i style=" font-size: 8;">[Emergency Passage Alert System]</i>
-            (AGİS),
-            aims to improve emergency response efficiency by allowing drivers to be aware of incoming emergency
-            vehicles
-            by using navigation apps and on-road digital warning signs.</br>
-          <p id="news-links" onclick="expandLinks()"><u>Click to reveal news articles</u></p>
-          <p id="more" style="display: none;">
-            <a
-              href="https://www.izmir.bel.tr/tr/Haberler/%E2%80%8Bakilli-sehirler-icin-yenilikci-fikirler-odullendirildi/51179/156">
-              <u>İzmir Büyükşehir Belediyesi</u></a></br>
-            <a href="https://www.emo.org.tr/genel/bizden_detay.php?kod=146677&tipi=43&sube=7">
-              <u>EMO Website</u></a></br>
-            <a href="https://muhendislik.idu.edu.tr/nDetail.aspx?No=1632">
-              <u>IDU Engineering Page</u></a></br>
-            <a href="https://www.youtube.com/watch?v=9ZVOnWJcw3c">
-              <u>Live Interview</u></a>
-          </p>
-          <q>Organised by Elektrik Mühendisleri Odası (EMO) İzmir Şubesi, İzmir İnovasyon ve Teknoloji A.Ş ve İzQ
-            İnovasyon Merkezi</q>
+        <div class="all-languages">
+          <div class="speaking-languages">
+            <h2>{{languages.title}}</h2>
+            <div class="language-individual">
+              <div class="text">
+                <h3>{{languages.name.turkish}}</h3>
+                <p>{{languages.level.native}}</p>
+              </div>
+              <div class="text">
+                <h3>{{languages.name.english}}</h3>
+                <p>C1</p>
+              </div>
+              <div class="text">
+                <h3>{{languages.name.german}}</h3>
+                <p>{{languages.level.beginner}}</p>
+              </div>
+            </div>
+          </div>
+          <div class="programming-languages">
+            <h2>{{programmingLanguages.title}}</h2>
+            <table class="table table-borderless">
+              <tbody>
+                <tr>
+                  <td class="skill-name">Python</td>
+                  <td>{{programmingLanguages.advanced}}</td>
+                  <td>{{programmingLanguages.content.python}}</td>
+                </tr>
+                <tr>
+                  <td class="skill-name">PLC</td>
+                  <td>{{programmingLanguages.advanced}}</td>
+                  <td>{{programmingLanguages.content.plc}}</td>
+                </tr>
+                <tr>
+                  <td class="skill-name">C++</td>
+                  <td>{{programmingLanguages.intermediate}}</td>
+                  <td>{{programmingLanguages.content.cpp}}</td>
+                </tr>
+                <tr>
+                  <td class="skill-name">HTML/JS/CSS</td>
+                  <td>{{programmingLanguages.intermediate}}</td>
+                  <td>{{programmingLanguages.content.html}}</td>
+                </tr>
+                <tr>
+                  <td class="skill-name">Matlab</td>
+                  <td>{{programmingLanguages.intermediate}}</td>
+                  <td>{{programmingLanguages.content.matlab}}</td>
+                </tr>
+                <tr>
+                  <td class="skill-name">Java</td>
+                  <td>{{programmingLanguages.basic}}</td>
+                  <td>{{programmingLanguages.content.java}}</td>
+                </tr>
+                <tr>
+                  <td class="skill-name">C#</td>
+                  <td>{{programmingLanguages.entry}}</td>
+                  <td>{{programmingLanguages.content.cs}}</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="note">*{{programmingLanguages.content.note}}</p>
+
+          </div>
         </div>
-        <div class="text">
-          <h3>Academic Projects</h3>
-          <h4>TÜBiTAK 1002 (2024-Ongoing)</h4>
-          <p>Sembolik Filtreleme Tabanlı Öznitelik Çıkarımı ile
-            Görüntü Sınıflandırma Performansının Artırılması ve
-            Tarımda İlaçlama Normunun Belirlenmesi</p>
+        <div class="skills">
+          <h2>{{skills.title}}</h2>
+          <div class="two-cols">
+            <div class="text">
+              <p>{{skills.line1}}</p>
+              <p>{{skills.line2}}</p>
+              <p>{{skills.line3}}</p>
+              <p>{{skills.line4}}</p>
+              <p>{{skills.line5}}</p>
+              <p>{{skills.line6}}</p>
+              <p>{{skills.line7}}</p>
+              <p>{{skills.line8}}</p>
+              <p>{{skills.line9}}</p>
+              <p>{{skills.line10}}</p>
+              <p>{{skills.line11}}</p>
+              <p>{{skills.line12}}</p>
+
+            </div>
+          </div>
         </div>
-        <div class="text">
-          <h3>University Lecturing</h3>
-          <h4>Given two lectures about PLC and CODESYS (2023-2024)</h4>
-          <p>EEE413 - Programmable Logic Controllers class</p>
-          <h4>Acted as a mentor student and given lectures to a group (2022)</h4>
-          <p>EEE103 Introduction to Programming class for a semester </p>
-          <h4>Given Entry Level Python Lectures (2022)</h4>
-          <p>IEEE Student Branch</p>
+        <div class="experience">
+          <h2>{{experience.title}}</h2>
+          <div class="text">
+            <h3>{{experience.batel.name}} ({{experience.batel.duration}})</h3>
+            <h4>{{experience.batel.position}}</h4>
+            <p>{{experience.batel.subjects.line1}}</p>
+            <p>{{experience.batel.subjects.line2}}</p>
+          </div>
+          <div class="text">
+            <h3>{{experience.scw.name}} ({{experience.scw.duration}})</h3>
+            <h4>{{experience.scw.position}}</h4>
+            <p>{{experience.scw.subjects.line1}}</p>
+          </div>
+          <div class="text">
+            <h3>Hackathon</h3>
+            <h4>{{{experience.hackathon.name}}}</h4>
+            <p>{{{experience.hackathon.description}}}<br>
+            <p id="news-links" onclick="expandLinks()"><u>{{experience.hackathon.clickText}}</u></p>
+            <p id="more" style="display: none;">
+              <a
+                href="https://www.izmir.bel.tr/tr/Haberler/%E2%80%8Bakilli-sehirler-icin-yenilikci-fikirler-odullendirildi/51179/156">
+                <u>{{experience.hackathon.articles.line1}}</u></a><br>
+              <a href="https://www.emo.org.tr/genel/bizden_detay.php?kod=146677&tipi=43&sube=7">
+                <u>{{experience.hackathon.articles.line2}}</u></a><br>
+              <a href="https://muhendislik.idu.edu.tr/nDetail.aspx?No=1632">
+                <u>{{experience.hackathon.articles.line3}}</u></a><br>
+              <a href="https://www.youtube.com/watch?v=9ZVOnWJcw3c">
+                <u>{{experience.hackathon.articles.line4}}</u></a><br>
+            </p>
+            <q>{{experience.hackathon.organizer}}</q>
+          </div>
+          <div class="text">
+            <h3>{{experience.academic.name}}</h3>
+            <h4>{{experience.academic.project.title}} ({{experience.academic.project.duration}})</h4>
+            <p>{{experience.academic.project.description}}</p>
+          </div>
+          <div class="text">
+            <h3>{{experience.lecturing.name}}</h3>
+            <h4>{{experience.lecturing.experiences.experience1.description}}</h4>
+            <p>{{experience.lecturing.experiences.experience1.place}}</p>
+            <h4>{{experience.lecturing.experiences.experience2.description}}</h4>
+            <p>{{experience.lecturing.experiences.experience2.place}}</p>
+            <h4>{{experience.lecturing.experiences.experience3.description}}</h4>
+            <p>{{experience.lecturing.experiences.experience3.place}}</p>
+          </div>
+          <div class="text">
+            <h3>{{experience.tosfed.name}} ({{experience.tosfed.duration}})</h3>
+            <h4>{{experience.tosfed.position}}</h4>
+          </div>
         </div>
-        <div class="text">
-          <h3>TOSFED (2024-Present)</h3>
-          <h4>D Licenced Racing Marshall</h4>
+        <div class="education">
+          <h2>{{education.title}}</h2>
+          <div class="text">
+            <h3>{{education.uni.name}} ({{education.uni.duration}})</h3>
+            <h4>{{education.uni.degree}}</h4>
+            <p>{{education.uni.experience.line1.description}} ({{education.uni.experience.line1.duration}})</p>
+            <p>{{education.uni.experience.line2.description}} ({{education.uni.experience.line2.duration}})</p>
+            <p>{{education.uni.experience.line3.description}} ({{education.uni.experience.line3.duration}})</p>
+          </div>
+          <div class="text">
+            <h3>{{education.highschool.name}} ({{education.highschool.duration}})</h3>
+            <p>{{education.highschool.experience.line1.description}} ({{education.highschool.experience.line1.duration}})</p>
+            <p>{{education.highschool.experience.line2.description}} ({{education.highschool.experience.line2.duration}})</p>
+            <p>{{education.highschool.experience.line3.description}} ({{education.highschool.experience.line3.duration}})</p>
+          </div>
         </div>
-      </div>
-      <div class="education">
-        <h2>EDUCATION</h2>
-        <div class="text">
-          <h3>İzmir Democracy University (2020-Present)</h3>
-          <h4>Electrical Electronical Engineering [BE]</h4>
-          <p>Accountant and Head of Design & Publicity in IEEE Student Branch (2024-Present)</p>
-          <p>Vice Chairman and Head of Design & Publicity in IEEE Student Branch (2022-2024)</p>
-          <p>Member of Google Developer Student Clubs (2022-2023)</p>
-        </div>
-        <div class="text">
-          <h3>Nevvar Salih İşgören Anatolian High School (2016-2020)</h3>
-          <p>Voluntary sound systems technician (2017-2020)</p>
-          <p>Designed the current T-shirts and the logo (2018)</p>
-          <p>TÜBİTAK 4006 contender (2018)</p>
-        </div>
-      </div>
-      <!-- TODO: Pull descriptions from api -->
-      <div class="projects">
-        <h2>PROJECT REPOSITORIES</h2>
-        <div class="text">
-          <h4>NDA/Company Owned Projects</h4>
-          <h3>Tester-Developer Portal</h3>
-          <p><b>[Django/HTML/CSS/JQuery]</b> In my internship at <i>SCW.AI</i>, after changing their case report
-            system,
-            they needed a portal website for both developers and testers to access.
-            Website had:<br>
-            ‣ Django templates<br>
-            ‣ AJAX implementation<br>
-            ‣ Dark and Light modes<br>
-            ‣ Google Login<br>
-            ‣ Two search functions for <i>case_id</i> and <i>title</i> using the new system's API which are
-            automatically seperated at the backend; CASE ID and TITLE<br>
-            ‣ Pop-up image displays
-          </p>
-        </div>
-        <div class="text">
-          <h4>Public Github Repos</h4>
-          <a href="https://github.com/hardenedcotton/RL_driver" target=”_blank”>
-            <h3>RL_driver<sup>[WIP]</sup></h3>
-          </a>
-          <p><b>[Python]</b> My hobby project which aims to use a Reinforcement Learning model to create a self
-            driving
-            racing car. Which then is used to compute the ideal racing line.</p>
+        <!-- TODO: Pull descriptions from api -->
+        <div class="projects">
+          <h2>PROJECT REPOSITORIES</h2>
+          <div class="text">
+            <h4>{{projects.nda.title}}</h4>
+            <h3>{{projects.nda.projects.project1.title}}</h3>
+            <p><b>[{{projects.nda.projects.project1.language}}]</b> {{{projects.nda.projects.project1.description}}}
+            </p>
+          </div>
+          <div class="text">
+            <h4>{{projects.github.title}}</h4>
+            <a href="{{projects.github.projects.project1.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project1.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project1.language}}]</b> {{{projects.github.projects.project1.description}}}</p>
 
-          <a href="https://github.com/hardenedcotton/MFBC" target=”_blank”>
-            <h3>MFBC<sup>[WIP]</sup></h3>
-          </a>
-          <p><b>[Python]</b> My TÜBİTAK 1002 Submisson and also my degree finishing project. Math Function Based
-            Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.)
-            to
-            convolve each RGB channel. </p>
+            <a href="{{projects.github.projects.project2.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project2.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project2.language}}]</b> {{{projects.github.projects.project2.description}}}</p>
 
-          <a href="https://github.com/hardenedcotton/BoarRepellent" target=”_blank”>
-            <h3>BoarRepellent</h3>
-          </a>
-          <p><b>[Arduino]</b> My first monetized project. This project aims to use different sound effects
-            to scare the invasive boars that roam in the dark hours in farming areas.</p>
+            <a href="{{projects.github.projects.project3.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project3.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project3.language}}]</b> {{{projects.github.projects.project3.description}}}</p>
 
-          <a href="https://github.com/hardenedcotton/SignalZeroOverlapper" target=”_blank”>
-            <h3>SignalZeroOverlapper</h3>
-          </a>
-          <p><b>[Python]</b> Overlaps the zero points of given signals.</p>
+            <a href="{{projects.github.projects.project4.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project4.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project4.language}}]</b> {{{projects.github.projects.project4.description}}}</p>
 
-          <a href="https://github.com/hardenedcotton/BasicImageFiltering" target=”_blank”>
-            <h3>BasicImageFiltering</h3>
-          </a>
-          <p><b>[Python]</b> Includes low level image processing to create a social media-like filter.</p>
+            <a href="{{projects.github.projects.project5.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project5.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project5.language}}]</b> {{{projects.github.projects.project5.description}}}</p>
+            <a href="{{projects.github.projects.project6.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project6.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project6.language}}]</b> {{{projects.github.projects.project6.description}}}</p>
 
-          <a href="https://github.com/hardenedcottonbruteForceAttack" target=”_blank”>
-            <h3>BruteForceAttack</h3>
-          </a>
-          <p><b>[Python]</b> Just a pastime project. It works by trying every combination of 94 ASCII characters.
-            Mean Measured Time for 5 char passwords is around 20 minutes. Still to be improved.</p>
+            <a href="{{projects.github.projects.project7.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project7.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project7.language}}]</b> {{{projects.github.projects.project7.description}}}</p>
 
-          <a href="https://github.com/hardenedcotton/CodesysLecture" target=”_blank”>
-            <h3>CodesysLecture</h3>
-          </a>
-          <p><b>[Codesys/PLCSim/Matlab]</b> For a lecture I had given for the PLC class.</p>
+            <a href="{{projects.github.projects.project8.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project8.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project8.language}}]</b> {{{projects.github.projects.project8.description}}}</p>
 
-          <a href="https://github.com/hardenedcotton/PythonLectures" target=”_blank”>
-            <h3>PythonLectures</h3>
-          </a>
-          <p><b>[Python]</b> Lecture notes that I have created for our IEEE Student Branch lessons.</p>
+            <a href="{{projects.github.projects.project9.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project9.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project9.language}}]</b> {{{projects.github.projects.project9.description}}}</p>
 
-          <a href="https://github.com/hardenedcotton/DSP_Doppler_ECG_Resp" target=”_blank”>
-            <h3>DSP_Doppler_ECG_Resp</h3>
-          </a>
-          <p><b>[Python]</b> Digital processing and filtering of a Doppler Radar signal in Python
-            to estimate the heartrate and respiration rate.</p>
+            <a href="{{projects.github.projects.project10.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project10.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project10.language}}]</b> {{{projects.github.projects.project10.description}}}</p>
 
-          <a href="https://github.com/hardenedcotton/DataScienceGeoSpatial" target=”_blank”>
-            <h3>DataScienceGeoSpatial</h3>
-          </a>
-          <p><b>[Python]</b> Using adress names to geolocate and visualise several data.</p>
+            <a href="{{projects.github.projects.project11.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project11.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project11.language}}]</b> {{{projects.github.projects.project11.description}}}</p>
 
-          <a href="https://github.com/hardenedcotton/CursorMaze" target=”_blank”>
-            <h3>CursorMaze</h3>
-          </a>
-          <p><b>[Java]</b> My first programming project ever. A GUI maze puzzle that you
-            follow through with your mouse without colliding with the walls.</p>
-
-          <a href="https://github.com/hardenedcotton/ShutdownTimer" target=”_blank”>
-            <h3>ShutdownTimer</h3>
-          </a>
-          <p><b>[C#]</b> A GUI project that sets a countdown timer to shutdown your pc.</p>
+            <a href="{{projects.github.projects.project12.link}}" target=”_blank”>
+              <h3>{{{projects.github.projects.project12.title}}}</h3>
+            </a>
+            <p><b>[{{projects.github.projects.project12.language}}]</b> {{{projects.github.projects.project12.description}}}</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </script>
+  <script src="script.js"></script>
+
 </body>
-<script src="script.js"></script>
 
 </html>

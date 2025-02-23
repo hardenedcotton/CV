@@ -33,7 +33,7 @@
     "ref2": {
       "name": "Selami BEYHAN",
       "position": "Doç. Dr.</br>Elektrik Elektronik Mühendisi",
-      "company": "Yıldız Technical University",
+      "company": "Yıldız Teknik Üniversitesi",
       "tel": "+90 530 247 53 55",
       "mail": "selamibeyhan@gmail.com"
     },
@@ -46,7 +46,7 @@
   },
   "aboutMe": {
     "title": "HAKKIMDA",
-    "content": "İzmir’de doğup büyüdüm ve hatırladığım kadarıyla her zaman elektronik ve bilgisayarlarla ilgilenmişimdir. Merakım, çocukken aileme sorduğum basit bir soruyla başladı, silinen dosyalar nereye gider Bu merakım hızla, bazı şeylerin nasıl çalıştığını anlamaya yönelik bir tutkuya dönüştü. Çoğu zaman eşyaları parçalara ayırarak içindekileri görmekten kendimi alıkoyamadım.<br>Yıllar içinde bu tutku beni programlamaya ve mühendisliğe yönlendirdi ve sıfırdan bir şeyler inşa etmek, yeni fikirlerle denemeler yapmak benim için keyifli bir süreç haline geldi. Hobilerim üzerine projeler geliştirmeyi seviyor ve sürekli yeni şeyler öğrenme fırsatları arıyorum. Tasarıma olan ilgim de yaratıcı süreçlerimde önemli bir yer tutuyor; Photoshop ve Blender gibi yazılımlar üzerinde vakit geçirerek dijital yaratıcılığın hem teknik hem de sanatsal yönlerini keşfedebiliyorum.<br>Teknolojinin yanısıra, motor sporlarına olan ilgim de büyük; yarış mühendisliğinin ardındaki mühendislik dehasına hayran kalıyorum. İster programlama, ister tasarım, isterse yüksek performans mühendislik olsun, yenilik, problem çözme ve sınırları zorlama konusunda tutkuluyum."
+    "content": "İzmir’de doğup büyüdüm ve kendimi bildim bileli elektronik ve bilgisayarlara büyük bir ilgi duydum. Merakım, ebeveynlerime sorduğum basit bir soruyla başladı: Silinen dosyalar nereye gider? Bu merak, zamanla bazı şeylerin nasıl çalıştığını anlama tutkusuna dönüştü ve çoğu zaman cihazları sökerek içlerindeki mühendisliği keşfetmeye çalıştım.<br>Yıllar içinde bu tutku beni programlamaya ve mühendisliğe yönlendirdi ve sıfırdan bir şeyler inşa etmek, yeni fikirlerle denemeler yapmak benim için keyifli bir süreç haline geldi. Hobilerim üzerine projeler geliştirmeyi seviyorum ve sürekli olarak kendimi geliştirebileceğim fırsatlar arıyorum. Tasarıma olan ilgim de yaratıcı sürecimde önemli bir rol oynuyor; boş zamanlarımın büyük bir kısmını Photoshop ve Blender gibi yazılımlarda geçirerek dijital tasarımın hem teknik hem de sanatsal yönlerini keşfediyorum.<br>Teknolojinin yanı sıra, motor sporlarına olan ilgim de büyük; yarış mühendisliğinin ardındaki mühendislik dehasına hayran kalıyorum. İster programlama, ister tasarım, isterse mühendislik olsun, yenilik, problem çözme ve sınırları zorlamaktan büyük keyif alıyorum."
   },
   "languages": {
     "title": "DİLLER",
@@ -202,7 +202,7 @@
         "project1": {
           "title": "Tester-Developer Portal",
           "language": "Django/HTML/CSS/JQuery",
-          "description": "In my internship at <i>SCW.AI</i>, after changing their case report system, they needed a portal website for both developers and testers to access. Website had:<br>‣ Django templates<br>‣ AJAX implementation<br>‣ Dark and Light modes<br>‣ Google Login<br>‣ Two search functions for <i>case_id</i> and <i>title</i> using the new system's API which are automatically seperated at the backend; CASE ID and TITLE<br>‣ Pop-up image displays"
+          "description": "<i>SCW.AI</i>'daki stajımda, test sonuçları raporlama sistemlerini değiştirdikten sonra, hem geliştiricilerin hem de test uzmanlarının erişebileceği bir portal web sitesine ihtiyaç duyulması üstüne geliştirme görevi bana verilmiştir. Web sitesinin özellikleri şu şekildedir:<br>‣ Django şablonları<br>‣ AJAX entegrasyonu<br>‣ Koyu ve Açık temalar<br>‣ Google Girişi<br>‣ Yeni sistemin API'ını kullanarak case_id ve title için iki ayrı arama fonksiyonu (arka planda CASE ID ve TITLE olarak otomatik ayrılmaktadır)<br>‣ Pop-up görüntü gösterimi"
         }
       }
     },
@@ -213,73 +213,73 @@
           "title": "RL_driver<sup>[WIP]</sup>",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/RL_driver",
-          "description": "My hobby project which aims to use a Reinforcement Learning model to create a self driving racing car. Which then is used to compute the ideal racing line."
+          "description": "Hobi projem olup, Reinforcement Learning (Takviyeli Öğrenme) modelini kullanarak kendi kendine gidebilen bir yarış aracı oluşturmayı amaçlamaktadır. Daha sonra ideal yarış çizgisini hesaplamak için kullanılacaktır."
         },
         "project2": {
           "title": "MFBC<sup>[WIP]</sup>",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/MFBC",
-          "description": "My TÜBİTAK 1002 Submisson and also my degree finishing project. Math Function Based Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to convolve each RGB channel."
+          "description": "TÜBİTAK 1002 başvurum ve aynı zamanda bitirme projemdir. Matematik Fonksiyon Bazlı Konvolüsyon. Bu kod, her bir RGB kanalını konvolüsyondan geçirmek için varyans katsayısını sin, cos, exp gibi matematiksel fonksiyonlardan oluşan bir kernel'e uygular."
         },
         "project3": {
           "title": "BoarRepellent",
           "language": "Arduino",
           "link": "https://github.com/hardenedcotton/BoarRepellent",
-          "description": "My first monetized project. This project aims to use different sound effects to scare the invasive boars that roam in the dark hours in farming areas."
+          "description": "İlk gelir elde ettiğim projemdir. Bu proje, tarım alanlarında gece saatlerinde dolaşan istilacı yaban domuzlarını farklı ses efektleri kullanarak uzaklaştırmayı amaçlamaktadır."
         },
         "project4": {
           "title": "SignalZeroOverlapper",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/SignalZeroOverlapper",
-          "description": "Includes low level image processing to create a social media-like filter."
+          "description": "Bu proje verilen sinyallerin sıfır noktalarını örtüştürmeyi amaçlamaktadır"
         },
         "project5": {
           "title": "BasicImageFiltering",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/BasicImageFiltering",
-          "description": "Includes low level image processing to create a social media-like filter."
+          "description": "Sosyal medya benzeri bir filtre oluşturmak için low-level görüntü işleme tekniklerini içerir."
         },
         "project6": {
           "title": "BruteForceAttack",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/BruteForceAttack",
-          "description": "Just a pastime project. It works by trying every combination of 94 ASCII characters. Mean Measured Time for 5 char passwords is around 20 minutes. Still to be improved."
+          "description": "Boş zamanımda geliştirdiğim bir projedir. 94 ASCII karakterinin tüm kombinasyonlarını deneyerek çalışır. 5 karakterli şifreler için ölçülen ortalama süresi yaklaşık 20 dakikadır. Geliştirilmeye açık olarak bırakılmıştır."
         },
         "project7": {
           "title": "CodesysLecture",
           "language": "Codesys/PLCSim/Matlab",
           "link": "https://github.com/hardenedcotton/CodesysLecture",
-          "description": "For a lecture I had given for the PLC class."
+          "description": "PLC dersi için verdiğim bir dersin içeriğidir."
         },
         "project8": {
           "title": "PythonLectures",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/PythonLectures",
-          "description": "Lecture notes that I have created for our IEEE Student Branch lessons."
+          "description": "IEEE Öğrenci Kolu dersleri için hazırladığım ders notlarıdır."
         },
         "project9": {
           "title": "DSP_Doppler_ECG_Resp",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/DSP_Doppler_ECG_Resp",
-          "description": "Digital processing and filtering of a Doppler Radar signal in Python to estimate the heartrate and respiration rate."
+          "description": "Bir Doppler Radar sinyalinin işlenmesi ve filtrelenmesi ile kalp atış hızı ve solunum hızını tahmin etme projesidir."
         },
         "project10": {
           "title": "DataScienceGeoSpatial",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/DataScienceGeoSpatial",
-          "description": "Using adress names to geolocate and visualise several data."
+          "description": "Adres isimlerini kullanarak coğrafi konum belirleme ve çeşitli verileri görselleştirme yapan bir grup projesidir."
         },
         "project11": {
           "title": "CursorMaze",
           "language": "Java",
           "link": "https://github.com/hardenedcotton/CursorMaze",
-          "description": "My first programming project ever. A GUI maze puzzle that you follow through with your mouse without colliding with the walls."
+          "description": "İlk programlama projemdir. Fare imlecini kullanarak duvarlara çarpmadan ilerlemeniz gereken bir GUI labirent bulmacasıdır."
         },
         "project12": {
           "title": "ShutdownTimer",
           "language": "C#",
           "link": "https://github.com/hardenedcotton/ShutdownTimer",
-          "description": "A GUI project that sets a countdown timer to shutdown your pc."
+          "description": "Bilgisayarı belirli bir geri sayım süresi sonunda kapatmak için geliştirilmiş bir GUI uygulamasıdır."
         }
       }
     }

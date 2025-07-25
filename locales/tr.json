@@ -72,28 +72,28 @@
       "cpp": "Gömülü uygulamalarda kullanıldı",
       "html": "Full-stack geliştirme",
       "matlab": "Sinyal işleme ve kontrol teorisi",
-      "java": "İlk projem olarak bir GUI oyunu yaptım",
-      "cs": "Küçük çaplı bir Windows uygulaması için kullanıldı",
+      "java": "İlk projem olarak bir GUI oyunu yapmak için kullanıldı",
+      "cs": "Küçük çaplı bir Windows uygulaması yapmak için kullanıldı",
       "note": "Belirtilen bilgi seviyesi kişisel değerlendirmeye dayanmaktadır ve çalışma alanlarıma göredir"
     }
   },
   "skills": {
     "title": "YETENEKLER",
-    "line1": "Full Stack Web Geliştirme (Django)",
-    "line2": "Obje Tabanlı Programlama",
-    "line3": "Veri Bilimi & İşleme",
-    "line4": "Git ve Versiyon Kontrolü",
-    "line5": "Sinyal İşleme",
-    "line6": "Makine Öğrenmesi / Derin Öğrenme",
-    "line7": "PLC Tasarımı",
-    "line8": "Gömülü Sistemler",
-    "line9": "Yüksek Gerilim Devreleri ve Bileşenleri",
-    "line10": "e-Tablo Yetkinliği",
-    "line11": "2D/3D Tasarım Yazılımları",
-    "line12": "İlkyardım"
+    "web": "Full Stack Web Geliştirme (Django)",
+    "oop": "Obje Tabanlı Programlama",
+    "data": "Veri Bilimi & İşleme",
+    "git": "Git ve Versiyon Kontrolü",
+    "signal": "Sinyal İşleme",
+    "ml": "Makine Öğrenmesi / Derin Öğrenme",
+    "plc": "PLC Tasarımı",
+    "embedded": "Gömülü Sistemler",
+    "hv": "Yüksek Gerilim Devreleri ve Bileşenleri",
+    "spreadsheets": "e-Tablo Yetkinliği",
+    "3d": "2D/3D Tasarım Yazılımları",
+    "firstAid": "İlkyardım"
   },
-  "experience": {
-    "title": "DENEYİMLER",
+  "workExperience": {
+    "title": "İŞ DENEYİMLERİ",
     "batel": {
       "name": "Batel Elektromekanik",
       "duration": "2023 Ağustos-Eylül",
@@ -110,7 +110,10 @@
       "subjects": {
         "line1": "Django ile Full stack web geliştirme"
       }
-    },
+    }
+  },
+  "experience": {
+    "title": "DENEYİMLER",
     "hackathon": {
       "name": "<i>Akıllı Şehirler Hackathon</i> Birincisi",
       "description": "Acil Geçiş İkaz Sistemi (AGİS) adlı projemiz, sürücülerin yaklaşan acil durum araçlarından haberdar olmasını sağlamak amacıyla navigasyon uygulamaları ve yol üzerindeki dijital uyarı tabelalarını kullanarak acil durum müdahale sürecini iyileştirmeyi hedefliyor.",
@@ -129,6 +132,16 @@
         "title": "TÜBiTAK 1002 ",
         "duration": "2024-Devam Ediyor",
         "description": "Sembolik Filtreleme Tabanlı Öznitelik Çıkarımı ile Görüntü Sınıflandırma Performansının Artırılması ve Tarımda İlaçlama Normunun Belirlenmesi"
+      }
+    },
+    "ieee": {
+      "name": "IEEE Öğrenci Kolu (2022-2025)",
+      "experiences": {
+        "title": "Başkan Yardımcısı, Tanıtım-Tasarım Komitesi Başkanı, Sayman",
+        "description": "Başkan Yardımcısı, Tanıtım-Tasarım Komitesi Başkanı ve Saymanlık dahil olmak üzere çeşitli görevlerde bulundum.",
+        "experience1": "Etkinliklerimizin çoğunun tasarım işlerini yaptım. Afişler, sosyal medya gönderileri ve videolar gibi içerikler ürettim.",
+        "experience2": "Kulübün finans yönetiminden sorumlu oldum ve bu süreçte e-tablo yazılımlarında değerli deneyimler kazandım.",
+        "experience3": "Münazaralar, seminerler, çevrimiçi dersler gibi çeşitli etkinlikleri düzenlemede görev aldım."
       }
     },
     "lecturing": {
@@ -162,14 +175,10 @@
       "degree": "Elektrik Elektronik Mühendisliği [BE]",
       "experience": {
         "line1": {
-          "description": "IEEE Öğrenci Kolu'nda Sayman ve Tanıtım-Tasarım Komitesi Başkanı ",
-          "duration": "2024-Devam Ediyor"
+          "description": "IEEE Öğrenci Kolu'nda Başkan Yardımcısı, Tanıtım-Tasarım Komitesi Başkanı ve Sayman",
+          "duration": "2022-2025"
         },
         "line2": {
-          "description": "IEEE Öğrenci Kolu'nda Başkan Yardımcısı ve Tanıtım-Tasarım Komitesi Başkanı",
-          "duration": "2022-2024"
-        },
-        "line3": {
           "description": "Google Developer Student Club Üyesi",
           "duration": "2022-2023"
         }

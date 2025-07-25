@@ -152,7 +152,12 @@
               <li><a class="dropdown-item" onclick="setLanguage('en')">EN</a></li>
               <li><a class="dropdown-item" onclick="setLanguage('tr')">TR</a></li>
           </ul>
-          <p class="last-update">Last Updated: 24.02.2025</p>
+
+
+          <p class="last-update">Last Updated: 25.07.2025</p>
+
+
+
         </div>
         <div class="about-me">
           <h1>{{aboutMe.title}}</h1>
@@ -227,35 +232,38 @@
           <h2>{{skills.title}}</h2>
           <div class="two-cols">
             <div class="text">
-              <p>{{skills.line1}}</p>
-              <p>{{skills.line2}}</p>
-              <p>{{skills.line3}}</p>
-              <p>{{skills.line4}}</p>
-              <p>{{skills.line5}}</p>
-              <p>{{skills.line6}}</p>
-              <p>{{skills.line7}}</p>
-              <p>{{skills.line8}}</p>
-              <p>{{skills.line9}}</p>
-              <p>{{skills.line10}}</p>
-              <p>{{skills.line11}}</p>
-              <p>{{skills.line12}}</p>
+              <p>{{skills.embedded}}</p>
+              <p>{{skills.oop}}</p>
+              <p>{{skills.data}}</p>
+              <p>{{skills.signal}}</p>
+              <p>{{skills.plc}}</p>
+              <p>{{skills.git}}</p>
+              <p>{{skills.web}}</p>
+              <p>{{skills.ml}}</p>
+              <p>{{skills.hv}}</p>
+              <p>{{skills.spreadsheets}}</p>
+              <p>{{skills.3d}}</p>
+              <p>{{skills.firstAid}}</p>
 
             </div>
           </div>
         </div>
+        <div class="work-experiences">
+          <h2>{{workExperience.title}}</h2>
+          <div class="text">
+            <h3>{{workExperience.batel.name}} ({{workExperience.batel.duration}})</h3>
+            <h4>{{workExperience.batel.position}}</h4>
+            <p>{{workExperience.batel.subjects.line1}}</p>
+            <p>{{workExperience.batel.subjects.line2}}</p>
+          </div>
+          <div class="text">
+            <h3>{{workExperience.scw.name}} ({{workExperience.scw.duration}})</h3>
+            <h4>{{workExperience.scw.position}}</h4>
+            <p>{{workExperience.scw.subjects.line1}}</p>
+          </div>
+        </div>
         <div class="experience">
           <h2>{{experience.title}}</h2>
-          <div class="text">
-            <h3>{{experience.batel.name}} ({{experience.batel.duration}})</h3>
-            <h4>{{experience.batel.position}}</h4>
-            <p>{{experience.batel.subjects.line1}}</p>
-            <p>{{experience.batel.subjects.line2}}</p>
-          </div>
-          <div class="text">
-            <h3>{{experience.scw.name}} ({{experience.scw.duration}})</h3>
-            <h4>{{experience.scw.position}}</h4>
-            <p>{{experience.scw.subjects.line1}}</p>
-          </div>
           <div class="text">
             <h3>Hackathon</h3>
             <h4>{{{experience.hackathon.name}}}</h4>
@@ -280,6 +288,15 @@
             <p>{{experience.academic.project.description}}</p>
           </div>
           <div class="text">
+            <h3>{{experience.ieee.name}}</h3>
+            <h4>{{experience.ieee.experiences.title}}</h4>
+            <p>{{experience.ieee.experiences.description}}</p>
+            <p>{{experience.ieee.experiences.experience1}}</p>
+            <p>{{experience.ieee.experiences.experience2}}</p>
+            <p>{{experience.ieee.experiences.experience3}}</p>
+
+          </div>
+          <div class="text">
             <h3>{{experience.lecturing.name}}</h3>
             <h4>{{experience.lecturing.experiences.experience1.description}}</h4>
             <p>{{experience.lecturing.experiences.experience1.place}}</p>
@@ -300,7 +317,6 @@
             <h4>{{education.uni.degree}}</h4>
             <p>{{education.uni.experience.line1.description}} ({{education.uni.experience.line1.duration}})</p>
             <p>{{education.uni.experience.line2.description}} ({{education.uni.experience.line2.duration}})</p>
-            <p>{{education.uni.experience.line3.description}} ({{education.uni.experience.line3.duration}})</p>
           </div>
           <div class="text">
             <h3>{{education.highschool.name}} ({{education.highschool.duration}})</h3>

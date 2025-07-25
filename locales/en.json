@@ -79,21 +79,21 @@
   },
   "skills": {
     "title": "SKILLS",
-    "line1": "Full Stack Web Development (Django)",
-    "line2": "Object Oriented Programming",
-    "line3": "Data Science & Processing",
-    "line4": "Git and Version Control",
-    "line5": "Signal Processing",
-    "line6": "Machine Learning / Deep Learning",
-    "line7": "PLC Design",
-    "line8": "Embedded Systems",
-    "line9": "High Voltage Circuits and Components",
-    "line10": "Spreadsheet Proficiency",
-    "line11": "2D/3D Design Softwares",
-    "line12": "First Aid"
+    "web": "Full Stack Web Development (Django)",
+    "oop": "Object Oriented Programming",
+    "data": "Data Science & Processing",
+    "git": "Git and Version Control",
+    "signal": "Signal Processing",
+    "ml": "Machine Learning / Deep Learning",
+    "plc": "PLC Design",
+    "embedded": "Embedded Systems",
+    "hv": "High Voltage Circuits and Components",
+    "spreadsheets": "Spreadsheet Proficiency",
+    "3d": "2D/3D Design Softwares",
+    "firstAid": "First Aid"
   },
-  "experience": {
-    "title": "EXPERIENCE",
+  "workExperience": {
+    "title": "WORK EXPERIENCES",
     "batel": {
       "name": "Batel Electromechanic",
       "duration": "2023 August-September",
@@ -110,7 +110,10 @@
       "subjects": {
         "line1": "Full stack web development with Django"
       }
-    },
+    }
+  },
+  "experience": {
+    "title": "EXPERIENCES",
     "hackathon": {
       "name": "Winner of the <i>Smart Cities Hackathon</i>",
       "description": "Our project, Acil Geçiş İkaz Sistemi <i style=\" font-size: 8;\">[Emergency Passage Alert System]</i> (AGİS), aims to improve emergency response efficiency by allowing drivers to be aware of incoming emergency vehicles by using navigation apps and on-road digital warning signs.",
@@ -129,6 +132,16 @@
         "title": "TÜBiTAK 1002 ",
         "duration": "2024-Ongoing",
         "description": "Sembolik Filtreleme Tabanlı Öznitelik Çıkarımı ile Görüntü Sınıflandırma Performansının Artırılması ve Tarımda İlaçlama Normunun Belirlenmesi"
+      }
+    },
+    "ieee": {
+      "name": "IEEE Student Branch (2022-2025)",
+      "experiences": {
+        "title": "Vice Chairman, Head of Design & Publicity, Accountant",
+        "description": "I have held various positions, including Vice Chairman and Head of Design & Publicity and Accountant.",
+        "experience1": "Done the majority of the design work for our events, including posters, social media posts, and other publicity materials.",
+        "experience2": "Been responsible for managing the finances of the branch, while gaining valueable experience in spreadsheet softwares.",
+        "experience3": "Took part in organizing various events; including debates, seminars, online lectures etc."
       }
     },
     "lecturing": {
@@ -162,14 +175,10 @@
       "degree": "Electrical Electronical Engineering [BE]",
       "experience": {
         "line1": {
-          "description": "Accountant and Head of Design & Publicity in IEEE Student Branch",
-          "duration": "2024-Present"
+          "description": "Vice Chairman, Head of Design & Publicity and Accountant in IEEE Student Branch",
+          "duration": "2022-2025"
         },
         "line2": {
-          "description": "Vice Chairman and Head of Design & Publicity in IEEE Student Branch",
-          "duration": "2022-2024"
-        },
-        "line3": {
           "description": "Member of Google Developer Student Clubs",
           "duration": "2022-2023"
         }

@@ -90,7 +90,8 @@
     "hv": "High Voltage Circuits and Components",
     "spreadsheets": "Spreadsheet Proficiency",
     "3d": "2D/3D Design Softwares",
-    "firstAid": "First Aid"
+    "firstAid": "First Aid",
+    "driversLicense": "Class B Drivers License"
   },
   "workExperience": {
     "title": "WORK EXPERIENCES",
@@ -226,7 +227,7 @@
           "description": "My hobby project which aims to use a Reinforcement Learning model to create a self driving racing car. Which then is used to compute the ideal racing line."
         },
         "project2": {
-          "title": "MFBC<sup>[WIP]</sup>",
+          "title": "MFBC",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/MFBC",
           "description": "My TÜBİTAK 1002 submisson and also my degree finishing project. Math Function Based Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to convolve each RGB channel."
@@ -238,54 +239,60 @@
           "description": "My first monetized project. This project aims to use different sound effects to scare the invasive boars that roam in the dark hours in farming areas."
         },
         "project4": {
+          "title": "EmbeddedProjects",
+          "language": "Arduino/Python",
+          "link": "https://github.com/hardenedcotton/EmbeddedProjects",
+          "description": "A repo that includes the projects I made for Embedded Systems and IoT classes."
+        },
+        "project5": {
           "title": "SignalZeroOverlapper",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/SignalZeroOverlapper",
           "description": "This project overlaps the zero points of given signals."
         },
-        "project5": {
+        "project6": {
           "title": "BasicImageFiltering",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/BasicImageFiltering",
           "description": "Includes low level image processing to create a social media-like filter."
         },
-        "project6": {
+        "project7": {
           "title": "BruteForceAttack",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/BruteForceAttack",
           "description": "Just a pastime project. It works by trying every combination of 94 ASCII characters. Mean Measured Time for 5 char passwords is around 20 minutes. Still to be improved."
         },
-        "project7": {
+        "project8": {
           "title": "CodesysLecture",
           "language": "Codesys/PLCSim/Matlab",
           "link": "https://github.com/hardenedcotton/CodesysLecture",
           "description": "For a lecture I had given for the PLC class."
         },
-        "project8": {
+        "project9": {
           "title": "PythonLectures",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/PythonLectures",
           "description": "Lecture notes that I have created for our IEEE Student Branch lessons."
         },
-        "project9": {
+        "project10": {
           "title": "DSP_Doppler_ECG_Resp",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/DSP_Doppler_ECG_Resp",
           "description": "Digital processing and filtering of a Doppler Radar signal to estimate the heartrate and respiration rate."
         },
-        "project10": {
+        "project11": {
           "title": "DataScienceGeoSpatial",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/DataScienceGeoSpatial",
           "description": "Using adress names to geolocate and visualise several data. A group project for a uni class."
         },
-        "project11": {
+        "project12": {
           "title": "CursorMaze",
           "language": "Java",
           "link": "https://github.com/hardenedcotton/CursorMaze",
           "description": "My first programming project ever. A GUI maze puzzle that you follow through with your mouse without colliding with the walls."
         },
-        "project12": {
+        "project13": {
           "title": "ShutdownTimer",
           "language": "C#",
           "link": "https://github.com/hardenedcotton/ShutdownTimer",

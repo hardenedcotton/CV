@@ -90,7 +90,8 @@
     "hv": "Yüksek Gerilim Devreleri ve Bileşenleri",
     "spreadsheets": "e-Tablo Yetkinliği",
     "3d": "2D/3D Tasarım Yazılımları",
-    "firstAid": "İlkyardım"
+    "firstAid": "İlkyardım",
+    "driversLicense": "B Sınıfı Sürücü Belgesi"
   },
   "workExperience": {
     "title": "İŞ DENEYİMLERİ",
@@ -225,7 +226,7 @@
           "description": "Hobi projem olup, Reinforcement Learning (Takviyeli Öğrenme) modelini kullanarak kendi kendine gidebilen bir yarış aracı oluşturmayı amaçlamaktadır. Daha sonra ideal yarış çizgisini hesaplamak için kullanılacaktır."
         },
         "project2": {
-          "title": "MFBC<sup>[WIP]</sup>",
+          "title": "MFBC",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/MFBC",
           "description": "TÜBİTAK 1002 başvurum ve aynı zamanda bitirme projemdir. Matematik Fonksiyon Bazlı Konvolüsyon. Bu kod, her bir RGB kanalını konvolüsyondan geçirmek için varyans katsayısını sin, cos, exp gibi matematiksel fonksiyonlardan oluşan bir kernel'e uygular."
@@ -237,54 +238,60 @@
           "description": "İlk gelir elde ettiğim projemdir. Bu proje, tarım alanlarında gece saatlerinde dolaşan istilacı yaban domuzlarını farklı ses efektleri kullanarak uzaklaştırmayı amaçlamaktadır."
         },
         "project4": {
+          "title": "EmbeddedProjects",
+          "language": "Arduino/Python",
+          "link": "https://github.com/hardenedcotton/EmbeddedProjects",
+          "description": "Embedded Systems ve IoT dersleri için hazırladığım projelerden oluşan bir derlemedir."
+        },
+        "project5": {
           "title": "SignalZeroOverlapper",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/SignalZeroOverlapper",
           "description": "Bu proje verilen sinyallerin sıfır noktalarını örtüştürmeyi amaçlamaktadır"
         },
-        "project5": {
+        "project6": {
           "title": "BasicImageFiltering",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/BasicImageFiltering",
           "description": "Sosyal medya benzeri bir filtre oluşturmak için low-level görüntü işleme tekniklerini içerir."
         },
-        "project6": {
+        "project7": {
           "title": "BruteForceAttack",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/BruteForceAttack",
           "description": "Boş zamanımda geliştirdiğim bir projedir. 94 ASCII karakterinin tüm kombinasyonlarını deneyerek çalışır. 5 karakterli şifreler için ölçülen ortalama süresi yaklaşık 20 dakikadır. Geliştirilmeye açık olarak bırakılmıştır."
         },
-        "project7": {
+        "project8": {
           "title": "CodesysLecture",
           "language": "Codesys/PLCSim/Matlab",
           "link": "https://github.com/hardenedcotton/CodesysLecture",
           "description": "PLC dersi için verdiğim bir dersin içeriğidir."
         },
-        "project8": {
+        "project9": {
           "title": "PythonLectures",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/PythonLectures",
           "description": "IEEE Öğrenci Kolu dersleri için hazırladığım ders notlarıdır."
         },
-        "project9": {
+        "project10": {
           "title": "DSP_Doppler_ECG_Resp",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/DSP_Doppler_ECG_Resp",
           "description": "Bir Doppler Radar sinyalinin işlenmesi ve filtrelenmesi ile kalp atış hızı ve solunum hızını tahmin etme projesidir."
         },
-        "project10": {
+        "project11": {
           "title": "DataScienceGeoSpatial",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/DataScienceGeoSpatial",
           "description": "Adres isimlerini kullanarak coğrafi konum belirleme ve çeşitli verileri görselleştirme yapan bir grup projesidir."
         },
-        "project11": {
+        "project12": {
           "title": "CursorMaze",
           "language": "Java",
           "link": "https://github.com/hardenedcotton/CursorMaze",
           "description": "İlk programlama projemdir. Fare imlecini kullanarak duvarlara çarpmadan ilerlemeniz gereken bir GUI labirent bulmacasıdır."
         },
-        "project12": {
+        "project13": {
           "title": "ShutdownTimer",
           "language": "C#",
           "link": "https://github.com/hardenedcotton/ShutdownTimer",

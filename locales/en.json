@@ -172,8 +172,9 @@
     "title": "EDUCATION",
     "uni": {
       "name": "İzmir Democracy University",
-      "duration": "2020-Present",
+      "duration": "2020-2025",
       "degree": "Electrical Electronical Engineering [BE]",
+      "gpa": "2.85/4.00",
       "experience": {
         "line1": {
           "description": "Vice Chairman, Head of Design & Publicity and Accountant in IEEE Student Branch",

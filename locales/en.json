@@ -14,11 +14,8 @@
       "line3": "Photography",
       "line4": "Programming",
       "line5": "Extreme Sports",
-      "line6": "Drawing",
-      "line7": "Movies and Shows",
-      "line8": "Video Games",
-      "line9": "3D Modelling",
-      "line10": "Music"
+      "line6": "3D Modelling",
+      "line7": "Drawing"
     }
   },
   "references": {
@@ -46,7 +43,7 @@
   },
   "aboutMe": {
     "title": "ABOUT ME",
-    "content": "I was born and raised in İzmir, and for as long as I can remember, I’ve been fascinated by electronics and computers. My curiosity started with a simple question to my parents: Where do all the deleted files go? That curiosity quickly turned into a passion for understanding how things work, often by taking them apart to see what’s the engineering like inside.<br>Over the years, this drive led me to programming and engineering, where I find joy in building things from scratch and experimenting with new ideas. I enjoy working on hobby projects and constantly seek opportunities to learn and refine my skills. My passion for design also plays a big role in my creative process; I spend much of my free time in software like Photoshop and Blender, exploring both technical and artistic aspects of digital creation.<br>Beyond technology, I am a dedicated motorsports fan, always intrigued by the engineering brilliance behind racing. Whether it's programming, design, or engineering, I thrive on innovation, problem-solving, and pushing boundaries."
+    "content": "For as long as I can remember, I’ve been fascinated by electronics and computers. My curiosity started with a simple question \"Where do deleted files go?\", That curiosity gradually turned into a passion for understanding how things work, and I often tried to discover the engineering inside devices.<br>Over the years, this passion led me towards programming and engineering, and building things from scratch and experimenting with new ideas became an enjoyable process for me.<br>Besides technology, I also have a great interest in motorsports; I admire the engineering brilliance behind racing. Whether it's programming, design, or engineering, I greatly enjoy innovation, problem-solving and pushing boundaries."
   },
   "languages": {
     "title": "LANGUAGES",
@@ -97,19 +94,25 @@
     "title": "WORK EXPERIENCES",
     "batel": {
       "name": "Batel Electromechanic",
-      "duration": "2023 August-September",
+      "duration": "August 2023 - September 2023",
       "position": "R&D Electrical-Electronics Engineering Intern (8 weeks)",
       "subjects": {
         "line1": "High Voltage Circuit and Load Breakers",
-        "line2": "Data Processing"
+        "line2": "PCB Assembly and Repairs",
+        "line3": "Documentation and Reporting",
+        "line4": "Product Assembly, Wiring and Testing",
+        "line5": "PLC and Embedded Systems Programming",
+        "line6": "Data Processing"
       }
     },
     "scw": {
       "name": "SCW.AI",
-      "duration": "2022 August-September",
+      "duration": "August 2022 - September 2022",
       "position": "Software Development Intern (9 weeks)",
       "subjects": {
-        "line1": "Full stack web development with Django"
+        "line1": "Full stack web development with Django",
+        "line2": "Git and version control",
+        "line3": "Scrum and Agile methodologies"
       }
     }
   },
@@ -130,9 +133,9 @@
     "academic": {
       "name": "Academic Projects",
       "project": {
-        "title": "TÜBiTAK 1002 ",
-        "duration": "2024-Ongoing",
-        "description": "Sembolik Filtreleme Tabanlı Öznitelik Çıkarımı ile Görüntü Sınıflandırma Performansının Artırılması ve Tarımda İlaçlama Normunun Belirlenmesi"
+        "title": "TÜBiTAK 1002",
+        "duration": "2024-2025",
+        "description": "Improving Image Classification Performance with Symbolic Filtering-Based Feature Extraction and Determining Spraying Norms in Agriculture"
       }
     },
     "ieee": {
@@ -154,11 +157,11 @@
         },
         "experience2": {
           "description": "Acted as a mentor student and given lectures to a group",
-          "place": "EEE103 - Introduction to Programming class for a semester"
+          "place": "EEE103 - Introduction to Programming class, I taught and mentored first-year students on the Python language for a semester"
         },
         "experience3": {
           "description": "Given Entry Level Python Lectures",
-          "place": "IEEE Student Branch"
+          "place": "3 hours of lectures I have given for IEEE Student Branch"
         }
       }
     },
@@ -207,7 +210,6 @@
   },
   "projects": {
     "title": "PROJECTS",
-
     "nda": {
       "title": "NDA/Company Owned Projects",
       "projects": {
@@ -215,6 +217,11 @@
           "title": "Tester-Developer Portal",
           "language": "Django/HTML/CSS/JQuery",
           "description": "In my internship at <i>SCW.AI</i>, after changing their case report system, they needed a portal website for both developers and testers to access. I was given the task of developing this website. The Website had:<br>‣ Django templates<br>‣ AJAX implementation<br>‣ Dark and Light modes<br>‣ Google Login<br>‣ Two search functions for <i>case_id</i> and <i>title</i> using the new system's API which are automatically seperated at the backend; CASE ID and TITLE<br>‣ Pop-up image displays"
+        },
+        "project2": {
+          "title": "Signal Analyzer Interface",
+          "language": "Python",
+          "description": "In my internship at <i>Batel Elektromekanik</i>, I wrote a program to visually and mathematically observe the relationship between the mechanical arm positions of circuit breakers and their currents, as well as test results. Its features are as follows:<br>‣ Processes data files saved in a special format<br>‣ Separates data channels<br>‣ Measures the distance between specified threshold values in ms<br>‣  Allows the user to manually select thresholds via a GUI<br>"
         }
       }
     },
@@ -231,7 +238,7 @@
           "title": "MFBC",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/MFBC",
-          "description": "My TÜBİTAK 1002 submisson and also my degree finishing project. Math Function Based Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to convolve each RGB channel."
+          "description": "My TÜBİTAK 1002 submisson and also my degree finishing project. Observed 83.84% accuracy on classifying infected plant leaves. Math Function Based Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to convolve each RGB channel."
         },
         "project3": {
           "title": "BoarRepellent",
@@ -267,13 +274,13 @@
           "title": "CodesysLecture",
           "language": "Codesys/PLCSim/Matlab",
           "link": "https://github.com/hardenedcotton/CodesysLecture",
-          "description": "For a lecture I had given for the PLC class."
+          "description": "Contents of the lectures I had given for the PLC class."
         },
         "project9": {
           "title": "PythonLectures",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/PythonLectures",
-          "description": "Lecture notes that I have created for our IEEE Student Branch lessons."
+          "description": "Lecture notes that I have created for our IEEE Student Branch Entry Level Python lessons."
         },
         "project10": {
           "title": "DSP_Doppler_ECG_Resp",

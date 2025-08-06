@@ -14,11 +14,8 @@
       "line3": "Fotoğrafçılık",
       "line4": "Programlama",
       "line5": "Ekstrem Sporlar",
-      "line6": "Çizim",
-      "line7": "Film ve Diziler",
-      "line8": "Bilgisayar Oyunları",
-      "line9": "3D Modelleme",
-      "line10": "Müzik"
+      "line6": "3D Modelleme",
+      "line7": "Çizim"
     }
   },
   "references": {
@@ -46,7 +43,7 @@
   },
   "aboutMe": {
     "title": "HAKKIMDA",
-    "content": "İzmir’de doğup büyüdüm ve kendimi bildim bileli elektronik ve bilgisayarlara büyük bir ilgi duydum. Merakım, ebeveynlerime sorduğum basit bir soruyla başladı: Silinen dosyalar nereye gider? Bu merak, zamanla bazı şeylerin nasıl çalıştığını anlama tutkusuna dönüştü ve çoğu zaman cihazları sökerek içlerindeki mühendisliği keşfetmeye çalıştım.<br>Yıllar içinde bu tutku beni programlamaya ve mühendisliğe yönlendirdi ve sıfırdan bir şeyler inşa etmek, yeni fikirlerle denemeler yapmak benim için keyifli bir süreç haline geldi. Hobilerim üzerine projeler geliştirmeyi seviyorum ve sürekli olarak kendimi geliştirebileceğim fırsatlar arıyorum. Tasarıma olan ilgim de yaratıcı sürecimde önemli bir rol oynuyor; boş zamanlarımın büyük bir kısmını Photoshop ve Blender gibi yazılımlarda geçirerek dijital tasarımın hem teknik hem de sanatsal yönlerini keşfediyorum.<br>Teknolojinin yanı sıra, motor sporlarına olan ilgim de büyük; yarış mühendisliğinin ardındaki mühendislik dehasına hayran kalıyorum. İster programlama, ister tasarım, isterse mühendislik olsun, yenilik, problem çözme ve sınırları zorlamaktan büyük keyif alıyorum."
+    "content": "Kendimi bildim bileli elektronik ve bilgisayarlara büyük bir ilgi duydum. \"Silinen dosyalar nereye gider?\" sorusuyla başlayan merakım, zamanla bazı şeylerin nasıl çalıştığını anlama tutkusuna dönüştü ve çoğu zaman cihazların içlerindeki mühendisliği keşfetmeye çalıştım.<br>Yıllar içinde bu tutku beni programlamaya ve mühendisliğe yönlendirdi ve sıfırdan bir şeyler inşa etmek, yeni fikirlerle denemeler yapmak benim için keyifli bir süreç haline geldi.<br>Teknolojinin yanı sıra, motor sporlarına olan ilgim de büyük; yarış mühendisliğinin ardındaki mühendislik dehasına hayran kalıyorum. İster programlama, ister tasarım, isterse mühendislik olsun, yenilik, problem çözme ve sınırları zorlamaktan büyük keyif alıyorum."
   },
   "languages": {
     "title": "DİLLER",
@@ -97,19 +94,25 @@
     "title": "İŞ DENEYİMLERİ",
     "batel": {
       "name": "Batel Elektromekanik",
-      "duration": "2023 Ağustos-Eylül",
+      "duration": "Ağustos 2023 - Eylül 2023",
       "position": "Ar-Ge Elektrik-Elektronik Mühendisliği Stajyeri (8 hafta)",
       "subjects": {
         "line1": "Yüksek Gerilim Devreleri ve Yük Kesiciler",
-        "line2": "Veri İşleme"
+        "line2": "PCB Montaj ve Tamiri",
+        "line3": "Dokümantasyon ve Raporlama",
+        "line4": "Ürün montajı, Kablolama ve Test",
+        "line5": "PLC ve Gömülü Sistem Programlama",
+        "line6": "Veri İşleme"
       }
     },
     "scw": {
       "name": "SCW.AI",
-      "duration": "2022 Ağustos-Eylül",
+      "duration": "Ağustos 2022 - Eylül 2022",
       "position": "Yazılım Geliştirme Stajyeri (9 hafta)",
       "subjects": {
-        "line1": "Django ile Full stack web geliştirme"
+        "line1": "Django ile Full stack web geliştirme",
+        "line2": "Git ve versiyon kontrolü",
+        "line3": "Scrum ve Agile metodolojileri"
       }
     }
   },
@@ -130,8 +133,8 @@
     "academic": {
       "name": "Akademik Projeler",
       "project": {
-        "title": "TÜBiTAK 1002 ",
-        "duration": "2024-Devam Ediyor",
+        "title": "TÜBiTAK 1002",
+        "duration": "2024-2025",
         "description": "Sembolik Filtreleme Tabanlı Öznitelik Çıkarımı ile Görüntü Sınıflandırma Performansının Artırılması ve Tarımda İlaçlama Normunun Belirlenmesi"
       }
     },
@@ -154,11 +157,11 @@
         },
         "experience2": {
           "description": "Bir gruba mentör öğrenci olarak ders anlatımı",
-          "place": "EEE103 - Introduction to Programming dersi için bir dönem boyunca"
+          "place": "EEE103 - Introduction to Programming dersi için bir dönem boyunca birinci sınıf öğrencilerine Python dili için ders verdim ve mentörlük yaptım"
         },
         "experience3": {
           "description": "Giriş Seviyesi Python Dersleri",
-          "place": "IEEE Öğrenci Kolu"
+          "place": "IEEE Öğrenci Kolu için verdiğim 3 saatlik ders"
         }
       }
     },
@@ -214,6 +217,11 @@
           "title": "Tester-Developer Portal",
           "language": "Django/HTML/CSS/JQuery",
           "description": "<i>SCW.AI</i>'daki stajımda, test sonuçları raporlama sistemlerini değiştirdikten sonra, hem geliştiricilerin hem de test uzmanlarının erişebileceği bir portal web sitesine ihtiyaç duyulması üstüne geliştirme görevi bana verilmiştir. Web sitesinin özellikleri şu şekildedir:<br>‣ Django şablonları<br>‣ AJAX entegrasyonu<br>‣ Koyu ve Açık temalar<br>‣ Google Girişi<br>‣ Yeni sistemin API'ını kullanarak case_id ve title için iki ayrı arama fonksiyonu (arka planda CASE ID ve TITLE olarak otomatik ayrılmaktadır)<br>‣ Pop-up görüntü gösterimi"
+        },
+        "project2": {
+          "title": "Sinyal Analiz Arayüzü",
+          "language": "Python",
+          "description": "<i>Batel Elektromekanik</i>'teki stajımda, kesicilerin mekanik kol konumları ve akımlarla olan bağlantılarının, test sonuçlarınının hem göresel hem matematiksel olarak gözlemlenebilmesi için yazdığım bi programdır. Özellikleri şu şekildedir:<br>‣ Özel formatta kaydedilmiş veri dosyası işlenir<br>‣ Veri kanalları ayrıştırılır<br>‣ Belirlenen eşik değerleri arasındaki uzaklık ms cinsinden ölçülür<br>‣ Kullanıcının GUI üstünden elle eşik seçmesine olanak verilir<br>"
         }
       }
     },
@@ -230,7 +238,7 @@
           "title": "MFBC",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/MFBC",
-          "description": "TÜBİTAK 1002 başvurum ve aynı zamanda bitirme projemdir. Matematik Fonksiyon Bazlı Konvolüsyon. Bu kod, her bir RGB kanalını konvolüsyondan geçirmek için varyans katsayısını sin, cos, exp gibi matematiksel fonksiyonlardan oluşan bir kernel'e uygular."
+          "description": "TÜBİTAK 1002 başvurum ve aynı zamanda bitirme projemdir. Hastalıklı bitki yapraklarının sınıflandırılmasında %83.84 doğruluk oranı elde edilmiştir. Matematik Fonksiyon Bazlı Konvolüsyon kısaltmasıdır. Bu kod, her bir RGB kanalını konvolüsyondan geçirmek için varyans katsayısını sin, cos, exp gibi matematiksel fonksiyonlardan oluşan bir kernel'e uygular."
         },
         "project3": {
           "title": "BoarRepellent",
@@ -266,13 +274,13 @@
           "title": "CodesysLecture",
           "language": "Codesys/PLCSim/Matlab",
           "link": "https://github.com/hardenedcotton/CodesysLecture",
-          "description": "PLC dersi için verdiğim bir dersin içeriğidir."
+          "description": "PLC dersi için verdiğim derslerin içeriğidir."
         },
         "project9": {
           "title": "PythonLectures",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/PythonLectures",
-          "description": "IEEE Öğrenci Kolu dersleri için hazırladığım ders notlarıdır."
+          "description": "IEEE Öğrenci Kolu'nda verdiğim Giriş Seviyesi Python dersleri için hazırladığım ders notlarıdır."
         },
         "project10": {
           "title": "DSP_Doppler_ECG_Resp",

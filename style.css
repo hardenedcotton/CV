@@ -30,9 +30,11 @@
     .skills,
     .all-languages,
     .experience,
+    .work-experiences,
     .education,
     .references,
-    .projects {
+    .nda-projects,
+    .github-projects {
         page-break-before: auto;
         page-break-inside: avoid;
     }
@@ -143,7 +145,7 @@ h1 {
 }
 
 h2 {
-    padding-top: 80px;
+    padding-top: 30px;
     font-size: 28pt;
 }
 
@@ -269,7 +271,9 @@ td {
 .experience p {
     font-weight: 300;
 }
-
+.work-experiences p {
+    font-weight: 300;
+}
 
 .text {
     margin-bottom: 30px;
@@ -279,6 +283,10 @@ td {
 .right-column .text {
     border-left: 4px solid var(--color-primary-right);
     padding-left: 20px;
+}
+
+.work-experiences h2 {
+    margin-top: 40px;
 }
 
 .projects h3 {

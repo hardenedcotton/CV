@@ -77,7 +77,9 @@
     }
 
 }
-
+ .cv-content {
+    width: 100%;
+ }
 .dropdown-menu {
     --bs-dropdown-min-width: 60px;
 }
@@ -93,6 +95,13 @@
     /* Internet Explorer 10+ */
     scrollbar-width: none;
     /* Firefox */
+}
+
+.left-column{
+    width: 25%;
+}
+.right-column{
+    width: 75%;
 }
 
 .left-column::-webkit-scrollbar,
@@ -132,11 +141,12 @@ button {
     overflow-x: hidden;
 }
 
-h1,
-h2,
-h3,
-h4,
-p {
+
+.right-column h1,
+.right-column h2,
+.right-column h3,
+.right-column h4,
+.right-column p {
     padding-bottom: 10px;
 }
 
@@ -169,6 +179,7 @@ p {
 a {
     text-decoration: none;
     color: var(--color-primary-right);
+    font-size: 14pt;
 }
 
 .left-column a {
@@ -179,7 +190,7 @@ a:hover {
     opacity: 0.8;
 }
 
-.interests .text{
+.interests .text {
     column-count: 2;
 }
 
@@ -232,7 +243,7 @@ a:hover {
 }
 
 .programming-languages h2{
-    margin-left: 7.35vw;
+    margin-left: 8.25vw;
 }
 
 .programming-skills {
@@ -241,7 +252,7 @@ a:hover {
 }
 
 .skill-name {
-    width: 6vw;
+    width: 8vw;
     text-align: right;
     font-weight: bold;
 }
@@ -268,10 +279,8 @@ td {
     column-count: 2;
     column-width: 30%;
 }
+.work-experiences,
 .experience p {
-    font-weight: 300;
-}
-.work-experiences p {
     font-weight: 300;
 }
 
@@ -286,7 +295,7 @@ td {
 }
 
 .work-experiences h2 {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .projects h3 {
@@ -298,7 +307,7 @@ td {
     margin-top: 30px;
     margin-bottom: -10px;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 12pt;
 }
 
 #news-links u:hover{

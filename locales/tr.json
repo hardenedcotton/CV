@@ -28,8 +28,8 @@
       "mail": "guraygenis@gmail.com"
     },
     "ref2": {
-      "name": "Selami BEYHAN",
-      "position": "Prof. Dr.</br>Elektrik Elektronik Mühendisi",
+      "name": "Prof. Dr. Selami BEYHAN",
+      "position": "Elektrik Elektronik Mühendisi",
       "company": "Yıldız Teknik Üniversitesi",
       "tel": "+90 530 247 53 55",
       "mail": "selamibeyhan@gmail.com"
@@ -133,7 +133,7 @@
     "academic": {
       "name": "Akademik Projeler",
       "project": {
-        "title": "TÜBiTAK 1002",
+        "title": "TÜBİTAK 1002",
         "duration": "2024-2025",
         "description": "Sembolik Filtreleme Tabanlı Öznitelik Çıkarımı ile Görüntü Sınıflandırma Performansının Artırılması ve Tarımda İlaçlama Normunun Belirlenmesi"
       }

@@ -28,8 +28,8 @@
       "mail": "guraygenis@gmail.com"
     },
     "ref2": {
-      "name": "Selami BEYHAN",
-      "position": "Prof. Dr.</br>Electrical-Electronics Engineering",
+      "name": "Prof. Dr. Selami BEYHAN",
+      "position": "Electrical-Electronics Engineering",
       "company": "Yıldız Technical University",
       "tel": "+90 530 247 53 55",
       "mail": "selamibeyhan@gmail.com"
@@ -133,7 +133,7 @@
     "academic": {
       "name": "Academic Projects",
       "project": {
-        "title": "TÜBiTAK 1002",
+        "title": "TÜBİTAK 1002",
         "duration": "2024-2025",
         "description": "Improving Image Classification Performance with Symbolic Filtering-Based Feature Extraction and Determining Spraying Norms in Agriculture"
       }
@@ -250,7 +250,7 @@
           "title": "EmbeddedProjects",
           "language": "Arduino/Python",
           "link": "https://github.com/hardenedcotton/EmbeddedProjects",
-          "description": "A repo that includes the projects I made for Embedded Systems and IoT classes."
+          "description": "A repository that includes the projects I made for Embedded Systems and IoT classes."
         },
         "project5": {
           "title": "SignalZeroOverlapper",

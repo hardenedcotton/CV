@@ -84,7 +84,7 @@
     "ml": "Makine Öğrenmesi / Derin Öğrenme",
     "plc": "PLC Tasarımı",
     "embedded": "Gömülü Sistemler",
-    "hv": "Yüksek Gerilim Devreleri ve Bileşenleri",
+    "hv": "Orta Gerilim Devreleri ve Bileşenleri",
     "spreadsheets": "e-Tablo Yetkinliği",
     "3d": "2D/3D Tasarım Yazılımları",
     "firstAid": "İlkyardım",
@@ -97,7 +97,7 @@
       "duration": "Ağustos 2023 - Eylül 2023",
       "position": "Ar-Ge Elektrik-Elektronik Mühendisliği Stajyeri (8 hafta)",
       "subjects": {
-        "line1": "Yüksek Gerilim Devreleri ve Yük Kesiciler",
+        "line1": "Orta Gerilim Devreleri ve Yük Kesiciler",
         "line2": "PCB Montaj ve Tamiri",
         "line3": "Dokümantasyon ve Raporlama",
         "line4": "Ürün montajı, Kablolama ve Test",

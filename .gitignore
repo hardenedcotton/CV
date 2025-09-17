@@ -1,5 +1,6 @@
-CV Web.code-workspace
-Onur Ümit Şener - CV.pdf
-127.0.0.1_5500_index.html.png
-assets/ous_banner.psd
-index - Copy.html
+*
+
+!.gitignore
+!index.html
+!locales/en.json
+!locales/tr.json

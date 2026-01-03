@@ -92,6 +92,16 @@
   },
   "workExperience": {
     "title": "İŞ DENEYİMLERİ",
+    "habas": {
+      "name": "Habaş Sinai Ve Tıbbi Gazlar İstihsal Endüstrisi AŞ",
+      "duration": "Aralık 2025 - Devam Ediyor",
+      "position": "Elektrik Bakım Mühendisi",
+      "subjects": {
+        "line1": "SCADA & PLC Sistemleri",
+        "line2": "Otomasyon Sistemleri",
+        "line4": "Hadde Hattı Elektrik Bakımı"
+      }
+    },
     "batel": {
       "name": "Batel Elektromekanik",
       "duration": "Ağustos 2023 - Eylül 2023",
@@ -110,9 +120,9 @@
       "duration": "Ağustos 2022 - Eylül 2022",
       "position": "Yazılım Geliştirme Stajyeri (9 hafta)",
       "subjects": {
-        "line1": "Django ile Full stack web geliştirme",
-        "line2": "Git ve versiyon kontrolü",
-        "line3": "Scrum ve Agile metodolojileri"
+        "line1": "Django ile Full Stack Web Geliştirme",
+        "line2": "Git ve Versiyon Kontrolü",
+        "line3": "Scrum ve Agile Metodolojileri"
       }
     }
   },
@@ -125,8 +135,9 @@
       "articles": {
         "line1": "İzmir Büyükşehir Belediyesi",
         "line2": "EMO Websitesi",
-        "line3": "İDÜ Mühendislik Sayfası",
-        "line4": "Canlı Röportaj"
+        "line3": "İDÜ Üniversite Sayfası",
+        "line4": "İDÜ Mühendislik Sayfası",
+        "line5": "Canlı Röportaj"
       },
       "organizer": "Organizatörler: Elektrik Mühendisleri Odası (EMO) İzmir Şubesi, İzmir İnovasyon ve Teknoloji A.Ş ve İzQ İnovasyon Merkezi"
     },

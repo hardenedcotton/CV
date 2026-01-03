@@ -14,7 +14,7 @@
         zoom: 100%;
     }
 
-    /* body{
+    body{
         --color-bg-left: white;
         --color-bg-right: white;
         --color-primary-left: black;
@@ -23,7 +23,7 @@
         --color-bars-secondary: #b6b6b6;
         --left-column-border: 0.3vw solid black;
     }
-     */
+    
     .interests,
     .links,
     .contact-info,

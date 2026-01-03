@@ -92,6 +92,16 @@
   },
   "workExperience": {
     "title": "WORK EXPERIENCES",
+    "habas": {
+      "name": "Habaş Sinai Ve Tıbbi Gazlar İstihsal Endüstrisi AŞ",
+      "duration": "December 2025 - Present",
+      "position": "Electrical Maintenance Engineer",
+      "subjects": {
+        "line1": "SCADA & PLC Systems",
+        "line2": "Automation Systems",
+        "line3": "Wire Rolling Electrical Maintenance"
+      }
+    },
     "batel": {
       "name": "Batel Electromechanic",
       "duration": "August 2023 - September 2023",
@@ -110,9 +120,9 @@
       "duration": "August 2022 - September 2022",
       "position": "Software Development Intern (9 weeks)",
       "subjects": {
-        "line1": "Full stack web development with Django",
-        "line2": "Git and version control",
-        "line3": "Scrum and Agile methodologies"
+        "line1": "Full Stack Web Development With Django",
+        "line2": "Git and Version Control",
+        "line3": "Scrum and Agile Methodologies"
       }
     }
   },
@@ -125,8 +135,9 @@
       "articles": {
         "line1": "İzmir Büyükşehir Belediyesi",
         "line2": "EMO Website",
-        "line3": "IDU Engineering Page",
-        "line4": "Live Interview"
+        "line3": "IDU University Page",
+        "line4": "IDU Engineering Page",
+        "line5": "Live Interview"
       },
       "organizer": "Organised by Elektrik Mühendisleri Odası (EMO) İzmir Şubesi, İzmir İnovasyon ve Teknoloji A.Ş ve İzQ İnovasyon Merkezi"
     },

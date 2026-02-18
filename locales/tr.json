@@ -3,7 +3,7 @@
   "birthPlace": "İzmir/Türkiye",
   "contact": {
     "title": "İLETİŞİM<br>& ADRES",
-    "city": "Katabağlar/İzmir",
+    "city": "Karabağlar/İzmir",
     "country": "TÜRKİYE"
   },
   "interests": {
@@ -99,7 +99,8 @@
       "subjects": {
         "line1": "SCADA & PLC Sistemleri",
         "line2": "Otomasyon Sistemleri",
-        "line3": "Hadde Hattı Elektrik Bakımı"
+        "line3": "Hadde Hattı Elektrik Bakımı",
+        "line4": "İkili Görü and Derinlik Algılama Uygulaması"
       }
     },
     "batel": {

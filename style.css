@@ -240,6 +240,7 @@ a:hover {
 
 .language-individual p {
     font-weight: 300;
+    margin-bottom: -10px;
 }
 
 .programming-languages h2{

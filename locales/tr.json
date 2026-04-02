@@ -97,10 +97,11 @@
       "duration": "Aralık 2025 - Devam Ediyor",
       "position": "Elektrik Bakım Mühendisi",
       "subjects": {
-        "line1": "SCADA & PLC Sistemleri",
-        "line2": "Otomasyon Sistemleri",
-        "line3": "Hadde Hattı Elektrik Bakımı",
-        "line4": "İkili Görü and Derinlik Algılama Uygulaması"
+        "line1": "Soğuk Sac Haddehanesi Fabrika Kurulumu",
+        "line2": "SCADA & PLC Sistemleri",
+        "line3": "Otomasyon Sistemleri",
+        "line4": "Bobin Hadde Hattı Elektrik Bakımı",
+        "line5": "İkili Görü and Derinlik Algılama Uygulaması"
       }
     },
     "batel": {

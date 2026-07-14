@@ -97,11 +97,13 @@
       "duration": "Aralık 2025 - Devam Ediyor",
       "position": "Elektrik Bakım Mühendisi",
       "subjects": {
-        "line1": "Soğuk Sac Haddehanesi Fabrika Kurulumu",
-        "line2": "SCADA & PLC Sistemleri",
-        "line3": "Otomasyon Sistemleri",
-        "line4": "Bobin Hadde Hattı Elektrik Bakımı",
-        "line5": "İkili Görü and Derinlik Algılama Uygulaması"
+        "line1": "Soğuk Sac Haddehanesi Fabrika Kurulumu ve Devreye Alınması",
+        "line2": "IO Testleri ve Arıza Giderimi",
+        "line3": "Sensör Yerleştirme ve Kalibrasyonu, Kablo Çekimi ve Sonlandırma",
+        "line4": "SCADA & PLC Sistemleri",
+        "line5": "Otomasyon Sistemleri",
+        "line6": "Bobin Hadde Hattı Elektrik Bakımı",
+        "line7": "İkili Görü and Derinlik Algılama Uygulaması"
       }
     },
     "batel": {

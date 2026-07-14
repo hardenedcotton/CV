@@ -97,11 +97,13 @@
       "duration": "December 2025 - Present",
       "position": "Electrical Maintenance Engineer",
       "subjects": {
-        "line1": "Cold Sheet Metal Rolling Mill Factory Installation",
-        "line2": "SCADA & PLC Systems",
-        "line3": "Automation Systems",
-        "line4": "Wire Rolling Line Electrical Maintenance",
-        "line5": "Stereo Vision and Depth Perception Application"
+        "line1": "Cold Sheet Metal Rolling Mill Factory Erection and Commissioning",
+        "line2": "IO Testing and Troubleshooting",
+        "line3": "Sensor Placement and Calibration, Cable Pulling and Termination",
+        "line4": "SCADA & PLC Systems",
+        "line5": "Automation Systems",
+        "line6": "Wire Rolling Line Electrical Maintenance Engineering",
+        "line7": "Stereo Vision and Depth Perception Application"
       }
     },
     "batel": {

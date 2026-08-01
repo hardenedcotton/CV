@@ -14,8 +14,7 @@
       "line3": "Fotoğrafçılık",
       "line4": "Programlama",
       "line5": "Ekstrem Sporlar",
-      "line6": "3D Modelleme",
-      "line7": "Çizim"
+      "line6": "3D Modelleme"
     }
   },
   "references": {
@@ -43,7 +42,7 @@
   },
   "aboutMe": {
     "title": "HAKKIMDA",
-    "content": "Kendimi bildim bileli elektronik ve bilgisayarlara büyük bir ilgi duydum. \"Silinen dosyalar nereye gider?\" sorusuyla başlayan merakım, zamanla bazı şeylerin nasıl çalıştığını anlama tutkusuna dönüştü ve çoğu zaman cihazların içlerindeki mühendisliği keşfetmeye çalıştım.<br>Yıllar içinde bu tutku beni programlamaya ve mühendisliğe yönlendirdi ve sıfırdan bir şeyler inşa etmek, yeni fikirlerle denemeler yapmak benim için keyifli bir süreç haline geldi.<br>Teknolojinin yanı sıra, motor sporlarına olan ilgim de büyük; yarış mühendisliğinin ardındaki mühendislik dehasına hayran kalıyorum. İster programlama, ister tasarım, isterse mühendislik olsun, yenilik, problem çözme ve sınırları zorlamaktan büyük keyif alıyorum."
+    "content": "Kendimi bildim bileli elektronik ve bilgisayarlara büyük bir ilgi duydum. \"Silinen dosyalar nereye gider?\" sorusuyla başlayan merakım, zamanla bazı şeylerin nasıl çalıştığını anlama tutkusuna dönüştü ve çoğu zaman cihazların içlerindeki mühendisliği keşfetmeye çalıştım.<br>Yıllar içinde bu tutku beni programlamaya ve mühendisliğe yönlendirdi ve sıfırdan bir şeyler inşa etmek, yeni fikirlerle denemeler yapmak benim için keyifli bir süreç haline geldi.<br>İster programlama, ister tasarım, isterse mühendislik olsun, yenilik, problem çözme ve sınırları zorlamaktan büyük keyif alıyorum."
   },
   "languages": {
     "title": "DİLLER",
@@ -237,6 +236,11 @@
           "title": "Sinyal Analiz Arayüzü",
           "language": "Python",
           "description": "<i>Batel Elektromekanik</i>'teki stajımda, kesicilerin mekanik kol konumları ve akımlarla olan bağlantılarının, test sonuçlarınının hem göresel hem matematiksel olarak gözlemlenebilmesi için yazdığım bi programdır. Özellikleri şu şekildedir:<br>‣ Özel formatta kaydedilmiş veri dosyası işlenir<br>‣ Veri kanalları ayrıştırılır<br>‣ Belirlenen eşik değerleri arasındaki uzaklık ms cinsinden ölçülür<br>‣ Kullanıcının GUI üstünden elle eşik seçmesine olanak verilir<br>"
+        },
+        "project3": {
+          "title": "İkili Görü ile 3D Koordinatların Hesaplanması",
+          "language": "Python",
+          "description": "<i>Habaş</i> için geliştirdiğim bu projede aynı düzlemde iki kameranın kullanımıyla ekranda seçilen bir noktanın üç boyutlu koordinatları hesaplanır."
         }
       }
     },

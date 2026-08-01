@@ -14,8 +14,7 @@
       "line3": "Photography",
       "line4": "Programming",
       "line5": "Extreme Sports",
-      "line6": "3D Modelling",
-      "line7": "Drawing"
+      "line6": "3D Modelling"
     }
   },
   "references": {
@@ -43,7 +42,7 @@
   },
   "aboutMe": {
     "title": "ABOUT ME",
-    "content": "For as long as I can remember, I’ve been fascinated by electronics and computers. My curiosity started with a simple question \"Where do deleted files go?\", That curiosity gradually turned into a passion for understanding how things work, and I often tried to discover the engineering inside devices.<br>Over the years, this passion led me towards programming and engineering, and building things from scratch and experimenting with new ideas became an enjoyable process for me.<br>Besides technology, I also have a great interest in motorsports; I admire the engineering brilliance behind racing. Whether it's programming, design, or engineering, I greatly enjoy innovation, problem-solving and pushing boundaries."
+    "content": "For as long as I can remember, I’ve been fascinated by electronics and computers. My curiosity started with a simple question \"Where do deleted files go?\", That curiosity gradually turned into a passion for understanding how things work, and I often tried to discover the engineering inside devices.<br>Over the years, this passion led me towards programming and engineering, and building things from scratch and experimenting with new ideas became an enjoyable process for me.<br>Whether it's programming, design, or engineering, I greatly enjoy innovation, problem-solving and pushing boundaries."
   },
   "languages": {
     "title": "LANGUAGES",
@@ -237,6 +236,11 @@
           "title": "Signal Analyzer Interface",
           "language": "Python",
           "description": "In my internship at <i>Batel Elektromekanik</i>, I wrote a program to visually and mathematically observe the relationship between the mechanical arm positions of circuit breakers and their currents, as well as test results. Its features are as follows:<br>‣ Processes data files saved in a special format<br>‣ Separates data channels<br>‣ Measures the distance between specified threshold values in ms<br>‣  Allows the user to manually select thresholds via a GUI<br>"
+        },
+        "project3": {
+          "title": "Calculating 3D Coordinates with Stereo Vision",
+          "language": "Python",
+          "description": "In this project developed for <i>Habaş</i>, 3D coordinates of a point selected on the screen are calculated using two cameras on the same plane."
         }
       }
     },

@@ -64,7 +64,7 @@
     "entry": "Entry",
     "content": {
       "python": "Extensive experience in app developement, data science and machine learning",
-      "plc": "Used for multiple simulations and given lectures for TIA portal and CODESYS",
+      "plc": "Used actively and given lectures for TIA Portal and CODESYS",
       "cpp": "Used in embedded applications",
       "html": "Full-stack development",
       "matlab": "Signal processing and control theory",
@@ -182,7 +182,15 @@
     "tosfed": {
       "name": "TOSFED",
       "duration": "2024-Present",
-      "position": "C Licenced Racing Marshall"
+      "position": "B Licenced Racing Marshall"
+    }
+  },
+  "publications": {
+    "title": "PUBLICATIONS",
+    "publication1": {
+      "name": "TÜBİTAK 1002",
+      "description": "İ. Aygün, O. Ü. Şener, U. Özbent, and S. Beyhan, “A Novel Image Filtering Approach for Image Classification Applied to Severity Assessment of Root Rot Disease in Arugula Cultivation”, J Agr Sci-Tarim Bili, vol. 32, no. 4, pp. 1051–1061, Oct. 2026, doi: 10.15832/ankutbd.1795811.",
+      "link": "<a href=\"https://doi.org/10.15832/ankutbd.1795811\">https://doi.org/10.15832/ankutbd.1795811</a>"
     }
   },
   "education": {
@@ -257,7 +265,7 @@
           "title": "MFBC",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/MFBC",
-          "description": "My TÜBİTAK 1002 submisson and also my degree finishing project. Observed 83.84% accuracy on classifying infected plant leaves. Math Function Based Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to convolve each RGB channel."
+          "description": "<br><a href=\"https://doi.org/10.15832/ankutbd.1795811\">https://doi.org/10.15832/ankutbd.1795811</a><br>My TÜBİTAK 1002 submisson and also my degree finishing project. Observed 83.84% accuracy on classifying infected plant leaves. Math Function Based Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to convolve each RGB channel"
         },
         "project3": {
           "title": "BoarRepellent",

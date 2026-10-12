@@ -64,7 +64,7 @@
     "entry": "Giriş Seviyesi",
     "content": {
       "python": "Uygulama geliştirme, veri bilimi ve makine öğrenimi konusunda geniş deneyim",
-      "plc": "TIA Portal ve CODESYS için birden fazla simülasyon yapıldı ve dersler verildi",
+      "plc": "TIA Portal ve CODESYS üzerinde aktif olarak çalıştım ve dersler verdim",
       "cpp": "Gömülü uygulamalarda kullanıldı",
       "html": "Full-stack geliştirme",
       "matlab": "Sinyal işleme ve kontrol teorisi",
@@ -182,7 +182,15 @@
     "tosfed": {
       "name": "TOSFED",
       "duration": "2024-Devam Ediyor",
-      "position": "C Sınıfı Yarış Gözetmeni"
+      "position": "B Sınıfı Yarış Gözetmeni"
+    }
+  },
+  "publications": {
+    "title": "YAYINLAR",
+    "publication1": {
+      "name": "TÜBİTAK 1002",
+      "description": "İ. Aygün, O. Ü. Şener, U. Özbent, and S. Beyhan, “A Novel Image Filtering Approach for Image Classification Applied to Severity Assessment of Root Rot Disease in Arugula Cultivation”, J Agr Sci-Tarim Bili, vol. 32, no. 4, pp. 1051–1061, Oct. 2026, doi: 10.15832/ankutbd.1795811.",
+      "link": "<a href=\"https://doi.org/10.15832/ankutbd.1795811\">https://doi.org/10.15832/ankutbd.1795811</a>"
     }
   },
   "education": {
@@ -257,7 +265,7 @@
           "title": "MFBC",
           "language": "Python",
           "link": "https://github.com/hardenedcotton/MFBC",
-          "description": "TÜBİTAK 1002 başvurum ve aynı zamanda bitirme projemdir. Hastalıklı bitki yapraklarının sınıflandırılmasında %83.84 doğruluk oranı elde edilmiştir. Matematik Fonksiyon Bazlı Konvolüsyon kısaltmasıdır. Bu kod, her bir RGB kanalını konvolüsyondan geçirmek için varyans katsayısını sin, cos, exp gibi matematiksel fonksiyonlardan oluşan bir kernel'e uygular."
+          "description": "<br><a href=\"https://doi.org/10.15832/ankutbd.1795811\">https://doi.org/10.15832/ankutbd.1795811</a><br>TÜBİTAK 1002 başvurum ve aynı zamanda bitirme projemdir. Hastalıklı bitki yapraklarının sınıflandırılmasında %83.84 doğruluk oranı elde edilmiştir. Matematik Fonksiyon Bazlı Konvolüsyon kısaltmasıdır. Bu kod, her bir RGB kanalını konvolüsyondan geçirmek için varyans katsayısını sin, cos, exp gibi matematiksel fonksiyonlardan oluşan bir kernel'e uygular."
         },
         "project3": {
           "title": "BoarRepellent",

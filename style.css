@@ -121,6 +121,11 @@ button {
     padding: 5px 10px 5px 10px;
     margin-top: -50px;
 }
+p > a {
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+}
 
 .content {
     display: flex;
@@ -301,17 +306,6 @@ td {
 }
 .publications h3 {
     margin-bottom: 0px;
-}
-.publications a {
-    font-weight: 500;
-    font-style: italic;
-    text-decoration: underline;
-}
-
-.projects a {
-    font-weight: 500;
-    font-style: italic;
-    text-decoration: underline;
 }
 
 .projects h3 {

@@ -101,7 +101,7 @@
         "line3": "Sensör Yerleştirme ve Kalibrasyonu, Kablo Çekimi ve Sonlandırma",
         "line4": "SCADA & PLC Sistemleri",
         "line5": "Otomasyon Sistemleri",
-        "line6": "Bobin Hadde Hattı Elektrik Bakımı",
+        "line6": "Kangal Hadde Hattı Elektrik Bakımı",
         "line7": "İkili Görü and Derinlik Algılama Uygulaması"
       }
     },
@@ -262,10 +262,10 @@
           "description": "Hobi projem olup, Reinforcement Learning (Takviyeli Öğrenme) modelini kullanarak kendi kendine gidebilen bir yarış aracı oluşturmayı amaçlamaktadır. Daha sonra ideal yarış çizgisini hesaplamak için kullanılacaktır."
         },
         "project2": {
-          "title": "MFBC",
+          "title": "SFBC",
           "language": "Python",
-          "link": "https://github.com/hardenedcotton/MFBC",
-          "description": "<br><a href=\"https://doi.org/10.15832/ankutbd.1795811\">https://doi.org/10.15832/ankutbd.1795811</a><br>TÜBİTAK 1002 başvurum ve aynı zamanda bitirme projemdir. Hastalıklı bitki yapraklarının sınıflandırılmasında %83.84 doğruluk oranı elde edilmiştir. Matematik Fonksiyon Bazlı Konvolüsyon kısaltmasıdır. Bu kod, her bir RGB kanalını konvolüsyondan geçirmek için varyans katsayısını sin, cos, exp gibi matematiksel fonksiyonlardan oluşan bir kernel'e uygular."
+          "link": "https://github.com/hardenedcotton/SFBC",
+          "description": "<br><a href=\"https://doi.org/10.15832/ankutbd.1795811\">https://doi.org/10.15832/ankutbd.1795811</a><br>TÜBİTAK 1002 başvurum ve aynı zamanda bitirme projemdir. Hastalıklı bitki yapraklarının sınıflandırılmasında %83.84 doğruluk oranı elde edilmiştir. Sembolik Fonksiyon Bazlı Konvolüsyon kısaltmasıdır. Bu kod, her bir RGB kanalını konvolüsyondan geçirmek için varyans katsayısını sin, cos, exp gibi matematiksel fonksiyonlardan oluşan bir kernel'e uygular."
         },
         "project3": {
           "title": "BoarRepellent",

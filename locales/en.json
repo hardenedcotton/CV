@@ -42,7 +42,7 @@
   },
   "aboutMe": {
     "title": "ABOUT ME",
-    "content": "For as long as I can remember, I’ve been fascinated by electronics and computers. My curiosity started with a simple question \"Where do deleted files go?\", That curiosity gradually turned into a passion for understanding how things work, and I often tried to discover the engineering inside devices.<br>Over the years, this passion led me towards programming and engineering, and building things from scratch and experimenting with new ideas became an enjoyable process for me.<br>Whether it's programming, design, or engineering, I greatly enjoy innovation, problem-solving and pushing boundaries."
+    "content": "For as long as I can remember, I’ve been fascinated by electronics and computers. My curiosity started with a simple question \"Where do deleted files go?\", That curiosity gradually turned into a passion for understanding how things work, and I often tried to discover the engineering inside devices.<br>Over the years, this passion led me towards programming and engineering, and building things from scratch and experimenting with new ideas became an enjoyable process for me.<br>Whether it's programming, design, or engineering, I greatly enjoy innovation, problem solving and pushing boundaries."
   },
   "languages": {
     "title": "LANGUAGES",
@@ -262,10 +262,10 @@
           "description": "My hobby project which aims to use a Reinforcement Learning model to create a self driving racing car. Which then is used to compute the ideal racing line."
         },
         "project2": {
-          "title": "MFBC",
+          "title": "SFBC",
           "language": "Python",
-          "link": "https://github.com/hardenedcotton/MFBC",
-          "description": "<br><a href=\"https://doi.org/10.15832/ankutbd.1795811\">https://doi.org/10.15832/ankutbd.1795811</a><br>My TÜBİTAK 1002 submisson and also my degree finishing project. Observed 83.84% accuracy on classifying infected plant leaves. Math Function Based Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to convolve each RGB channel"
+          "link": "https://github.com/hardenedcotton/SFBC",
+          "description": "<br><a href=\"https://doi.org/10.15832/ankutbd.1795811\">https://doi.org/10.15832/ankutbd.1795811</a><br>My TÜBİTAK 1002 submisson and also my degree finishing project. Observed 83.84% accuracy on classifying infected plant leaves. Symbolic Function Based Convolution. This code passes coefficient of variation to a kernel of math functions (sin, cos, exp etc.) to convolve each RGB channel"
         },
         "project3": {
           "title": "BoarRepellent",

@@ -29,7 +29,6 @@
   <script id="cv-template" type="text/x-handlebars-template">
     <div class="content">
       <div class="left-column">
-        <h1>Onur Ümit Şener</h1>
         <div class="profile-picture">
           <img src="assets/ous.jpg" alt="my picture">
         </div>
@@ -158,7 +157,7 @@
 
         </div>
         <div class="about-me">
-          <h1>{{aboutMe.title}}</h1>
+          <h1>{{aboutMe.name}}</h1>
           <div class="text">
             <p>{{{aboutMe.content}}}</p>
           </div>
@@ -229,22 +228,27 @@
         </div>
         <div class="skills">
           <h2>{{skills.title}}</h2>
-          <div class="two-cols">
-            <div class="text">
-              <p>{{skills.embedded}}</p>
-              <p>{{skills.oop}}</p>
-              <p>{{skills.data}}</p>
-              <p>{{skills.signal}}</p>
-              <p>{{skills.plc}}</p>
-              <p>{{skills.git}}</p>
-              <p>{{skills.web}}</p>
-              <p>{{skills.ml}}</p>
-              <p>{{skills.hv}}</p>
-              <p>{{skills.spreadsheets}}</p>
-              <p>{{skills.3d}}</p>
-              <p>{{skills.firstAid}}</p>
-              <p>{{skills.driversLicense}}</p>
-
+            <div class="skills-cols">
+              <div id="skills-left-col">
+                <div class="text">
+                  <p>{{skills.embedded}}</p>
+                  <p>{{skills.oop}}</p>
+                  <p>{{skills.data}}</p>
+                  <p>{{skills.signal}}</p>
+                  <p>{{skills.plc}}</p>
+                  <p>{{skills.git}}</p>
+                  <p>{{skills.web}}</p>
+                </div>
+              <div id="skills-right-col">
+                <div class="text">
+                <p>{{skills.ml}}</p>
+                <p>{{skills.hv}}</p>
+                <p>{{skills.spreadsheets}}</p>
+                <p>{{skills.3d}}</p>
+                <p>{{skills.firstAid}}</p>
+                <p>{{skills.driversLicense}}</p>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -357,8 +361,8 @@
         <div class="projects">
           <h2>{{projects.title}}</h2>
           <div class="nda-projects">
+            <h3>{{projects.nda.title}}</h3>
             <div class="text">
-              <h4>{{projects.nda.title}}</h4>
                 <h3>{{projects.nda.projects.project1.title}}</h3>
                 <p><b>[{{projects.nda.projects.project1.language}}]</b> {{{projects.nda.projects.project1.description}}}</p>
 
@@ -371,8 +375,9 @@
             </div>
           </div>
           <div class="github-projects">
+            <h3>{{projects.github.title}}</h3>
+            <div class="github-projects-cols">
             <div class="text">
-              <h4>{{projects.github.title}}</h4>
               <a href="{{projects.github.projects.project1.link}}" target=”_blank”>
                 <h3>{{{projects.github.projects.project1.title}}}</h3>
               </a>
@@ -401,7 +406,8 @@
                 <h3>{{{projects.github.projects.project6.title}}}</h3>
               </a>
               <p><b>[{{projects.github.projects.project6.language}}]</b> {{{projects.github.projects.project6.description}}}</p>
-
+            </div>
+            <div class="text">
               <a href="{{projects.github.projects.project7.link}}" target=”_blank”>
                 <h3>{{{projects.github.projects.project7.title}}}</h3>
               </a>
@@ -437,6 +443,8 @@
               </a>
               <p><b>[{{projects.github.projects.project13.language}}]</b> {{{projects.github.projects.project13.description}}}</p>
             </div>
+            </div>
+          </div>
           </div>
         </div>
       </div>

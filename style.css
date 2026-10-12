@@ -21,11 +21,12 @@
         --color-primary-right: black;
         --color-bars-primary: black;
         --color-bars-secondary: #b6b6b6;
-        --left-column-border: 0.3vw solid black;
+        --left-column-border: 6px solid black;
     }
-    
+
     .interests,
     .links,
+    .text,
     .contact-info,
     .skills,
     .all-languages,
@@ -36,8 +37,12 @@
     .references,
     .nda-projects,
     .github-projects {
-        page-break-before: auto;
+        break-after: auto;
         page-break-inside: avoid;
+    }
+
+    .projects {
+        break-before: always;
     }
 
     .buttons {
@@ -57,7 +62,7 @@
     --color-primary-right: black;
     --color-bars-primary: black;
     --color-bars-secondary: #b6b6b6;
-    --left-column-border: 0.3vw solid #888;
+    --left-column-border: 6px solid #888;
     .btn-outline-dark {
         --bs-btn-border-color: black;
         --bs-btn-color: black;
@@ -71,7 +76,7 @@
     --color-primary-right: white;
     --color-bars-primary: white;
     --color-bars-secondary: #292929;
-    --left-column-border: 0.3vw solid var(--color-primary-left);
+    --left-column-border: 6px solid var(--color-primary-left);
     .btn-outline-dark {
         --bs-btn-border-color: white;
         --bs-btn-color: white;
@@ -135,14 +140,14 @@ p > a {
     background-color: var(--color-bg-left);
     color: var(--color-primary-left);
     border-right: var(--left-column-border);
-    padding: 3vw;
+    padding: 45px;
     text-align: right;
 }
 
 .right-column {
     background-color: var(--color-bg-right);
     color: var(--color-primary-right);
-    padding: 3vw;
+    padding: 45px;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -196,13 +201,13 @@ a:hover {
     opacity: 0.8;
 }
 
-.interests .text {
+.interests > .text {
     column-count: 2;
 }
 
 #interest-left-col{
     text-align: left;
-    padding-left: 30px;
+    padding-left: 50%;
 }
 
 .links div {
@@ -236,7 +241,7 @@ a:hover {
 }
 
 .programming-languages .languages {
-    text-align: right; 
+    text-align: right;
   }
 
 .language-individual {
@@ -259,7 +264,7 @@ a:hover {
 }
 
 .skill-name {
-    width: 8vw;
+    width: 150px;
     text-align: right;
     font-weight: bold;
 }
@@ -281,10 +286,8 @@ td {
     font-size: 12pt;
     font-style: italic;
 }
-
-.skills .two-cols {
+.skills-cols {
     column-count: 2;
-    column-width: 30%;
 }
 .work-experiences,
 .experience p {
@@ -309,7 +312,7 @@ td {
 }
 
 .projects h3 {
-    margin-top: 30px;
+    padding-top: 30px;
     font-weight: 500;
 }
 
@@ -318,6 +321,13 @@ td {
     margin-bottom: -10px;
     font-weight: 700;
     font-size: 12pt;
+}
+.github-projects-cols {
+    column-count: 2;
+    column-gap: 50px;
+}
+.github-projects > .text {
+    break-inside: avoid;
 }
 
 #news-links u:hover{
@@ -328,10 +338,9 @@ td {
 .profile-picture {
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
-    margin-top: 80px;
-    padding: 0.5vw;
-    border: 0.5vw var(--color-primary-left) solid;
+    margin: 10px -5px 20px;
+    padding: 5px;
+    border: 5px var(--color-primary-left) solid;
 }
 
 .profile-picture img {
